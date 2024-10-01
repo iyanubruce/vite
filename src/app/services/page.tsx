@@ -40,7 +40,7 @@ export default function Services() {
 			</h1>
 			<div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
 			<h1 className="text-[#555555] lato text-center font-[300] leading-[42.86px] text-[30px]">
-				Access Global Limited provides Independent Quantity & Quality verification on
+				Access Fulcrum Limited provides Independent Quantity & Quality verification on
 				a wide range of
 				<br /> commodities wherever custody transfer takes place.
 			</h1>
@@ -50,7 +50,7 @@ export default function Services() {
 						Oil and Gas Cargo Inspection & Testing Services
 					</h1>
 					<p className="leading-[22.85714286px] mt-[46.5px] mb-[10.5px] text-[#555555] text-[16px]">
-						Access Global Limited provides a wide range of inspection services on
+						Access Fulcrum Limited provides a wide range of inspection services on
 						Crude Oil and Petroleum Products, Oil and Gas Cargoes
 						including:
 					</p>
@@ -315,7 +315,7 @@ export default function Services() {
 						P&I Club Surveys
 					</h1>
 					<p className="leading-[22.85714286px] mt-[46.5px] mb-[10.5px] text-[#555555] text-[16px]">
-						Access Global Limited provides a range of services to P&I clubs from
+						Access Fulcrum Limited provides a range of services to P&I clubs from
 						Hull and Machinery surveys, Cargo and Container Damage
 						Surveys, Loss investigation and Cargo Hold Fitness
 						Surveys.

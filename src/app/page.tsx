@@ -83,8 +83,8 @@ export default function Home() {
           </ul>
           <p className="brword whitespace-normal text-[#555555]">
             Whenever and wherever you require a first class independent
-            inspection service we are just a phone call away -Tel: +44 7360
-            806991
+            inspection service we are just a phone call away -Tel: +00 0000
+            000000
           </p>
         </div>
       </div>
@@ -109,7 +109,7 @@ export default function Home() {
               </h1>
               <div className="w-[70px] h-[4px] mx-auto bg-white mt-[10px] mb-[15px]"></div>
               <p className="text-center mb-[42.5px] text-white font-normal leading-[23.8px] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
-                Access Global Limited Global Solutions is committed to Customer
+                Access Fulcrum Limited Global Solutions is committed to Customer
                 Service Excellence Worldwide. Anticipating our Customer&apos;s
                 expectations, as well as adding value at every opportunity is
                 the foundation of everything we do.

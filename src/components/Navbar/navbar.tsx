@@ -7,7 +7,7 @@ export default function Navbar() {
   const router = usePathname();
   const pathname = router;
   const [menuOpen, setMenuOpen] = useState(false);
-  const details = ["contact@accessglobal.com", "Coordination: +0000000000"];
+  const details = ["contact@accessfulcrum.com", "Coordination: +0000000000"];
 
   const [detail, setDetail] = useState(0);
   const nextDetail = () => {
@@ -16,7 +16,7 @@ export default function Navbar() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextDetail();
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
   return (
