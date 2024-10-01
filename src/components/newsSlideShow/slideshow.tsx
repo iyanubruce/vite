@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 export default function Slideshow() {
 
-  const images = ["Welcome to the Access Global Limited Website...", "VGS - Passionate about Exceptional Customer Service Excellence...", "VGS - Passionate about Exceptional Customer Service Excellence..."];
+  const images = ["Welcome to the Access Fulcrum Limited Website...", "VGS - Passionate about Exceptional Customer Service Excellence...", "VGS - Passionate about Exceptional Customer Service Excellence..."];
   const [imIndex, setImIndex] = useState(0);
 
   const nextImage = () => {
