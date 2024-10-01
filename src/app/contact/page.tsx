@@ -11,7 +11,7 @@ export default function Contact() {
 			</h1>
 			<div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
 			<h1 className="text-[#555555] lato text-center font-[300] leading-[42.86px] text-[30px]">
-				UK Head Office & International Coordination Centre
+			Lagos Head Office & International Coordination Centre
 			</h1>
 			<div className="mt-[60.5px] p-[18px] w-full max-w-[1170px] mx-auto grid grid-cols-1 md:grid-cols-2 bg-white shadow-[0px_5px_10px_0px_rgba(0,0,0,0.25)]">
 				<div className="py-4 px-12">

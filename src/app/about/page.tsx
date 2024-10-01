@@ -40,19 +40,19 @@ export default function About() {
       </h1>
       <div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
       <h1 className="text-[#555555] text-center font-light leading-[42.86px] text-[30px]">
-        A UK based Independent inspection company with global reach!
+        An Independent inspection company with global reach!
       </h1>
       <div className="w-[100%] max-w-[1170px] gap-5 px-3 md:px-0 grid grid-cols-1 md:grid-cols-2 mx-auto mt-[45.5px]">
         <div className="leading-[21.43px] text-[15px] font-thin text-[#555555]">
           <b className="font-bold">ACCESS FULCRUM LIMITED</b> is an Africa
-          focused Independent Inspection Company with headquarters in the UK
+          focused Independent Inspection Company with headquarters in Lagos
           with operations in West Africa, including Nigeria, Kenya, Djibouti,
           the Democratic Republic of Congo, Ivory Coast, Togo and
           Angola.Commodities inspected: Sampling & Testing of Metals, Mineral
           Concentrates & Ores – Agricultural – Oil – Gas – Chemicals.
         </div>
         <div className="leading-[21.43px] text-[15px] font-thin text-[#555555]">
-          The company coordinates inspection and testing nominations from its UK
+          The company coordinates inspection and testing nominations from its Lagos
           head office or regional HQ in Lagos, Nigeria providing customers with
           a central point of contact and with a personal touch 24/7 every day of
           the year. Our aim is to provide a personal and knowledgeable service.
