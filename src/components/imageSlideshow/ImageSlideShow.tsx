@@ -44,7 +44,7 @@ export default function ImageSlideShow() {
                 Proactive Commodity Inspection & Testing Services
               </h2>
               <h1 className="mt-[32px] mb-[10.5px] text-white text-[16px] md:text-[21px] md:leading-[30px] leading-[23px] text-center font-normal tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
-                At Veritek, making a difference means setting the standards by
+                At Access Global Limited, making a difference means setting the standards by
                 which others wish to aspire.
               </h1>
               <button className="mx-auto mt-[30px] text-white block self-end align-middle text-center text-[14px] font-semibold bg-[#FF6F18] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px]">

@@ -56,7 +56,7 @@ export default function About() {
           head office or regional HQ in Lagos, Nigeria providing customers with
           a central point of contact and with a personal touch 24/7 every day of
           the year. Our aim is to provide a personal and knowledgeable service.
-          Whenever you make contact with Veritek, you will find we are happy to
+          Whenever you make contact with Access Fulcrum Limited, you will find we are happy to
           help you with any of your commodity inspection needs.
         </div>
       </div>
@@ -107,9 +107,9 @@ export default function About() {
               Safety
             </h1>
             <p className="leading-[21.42857143px] text-center text-[15px] text-white">
-              Veritek believes that good Health, Safety & Environmental
+              Access Fulcrum Limited believes that good Health, Safety & Environmental
               performance enhances the financial well being of its business.
-              Veritek recognizes its responsibilities towards all personnel and
+              Access Fulcrum Limited recognizes its responsibilities towards all personnel and
               the environment. The management is therefore determined not to
               spare any means or materials in the pursuit of the highest
               standards of safety at work.
@@ -132,7 +132,7 @@ export default function About() {
               We are a fully Independent International Inspection Company
               providing impartial, unbiased results using only approved
               measurement and testing methods. Our clients put their trust in
-              Veritek to safeguard their interests and our reputation depends on
+              Access Fulcrum Limited to safeguard their interests and our reputation depends on
               this.
             </p>
           </div>
@@ -150,7 +150,7 @@ export default function About() {
               Quality
             </h1>
             <p className="leading-[21.42857143px] text-center text-[15px] text-white">
-              Veritek is an ISO 9001:2015 accredited company committed to
+              Access Fulcrum Limited is an ISO 9001:2015 accredited company committed to
               providing our customers with efficient, cost effective and
               professional inspection, sampling and testing services for wet and
               dry commodities. We are committed to providing services in line

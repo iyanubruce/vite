@@ -4,7 +4,7 @@ import Footer from "@/components/footer/Footer";
 import Image from "next/image";
 export default function Contact() {
 	return (
-		<div>
+		<div className="bg-[#ebebeb] treb">
 			<Navbar />
 			<h1 className="pt-[64px] mt-[175px] leading-[57.14px] lato text-[#ff6f20] text-center text-[40px] font-bold tracking-[1px] uppercase">
 				Contact us
@@ -16,7 +16,7 @@ export default function Contact() {
 			<div className="mt-[60.5px] p-[18px] w-full max-w-[1170px] mx-auto grid grid-cols-1 md:grid-cols-2 bg-white shadow-[0px_5px_10px_0px_rgba(0,0,0,0.25)]">
 				<div className="py-4 px-12">
 					<h1 className="mt-[10px] leading-[42.85714287px] text-[30px] text-[#ff6f20] font-normal normal-case">
-						Veritek Global Solutions UK Ltd
+						Access Fulcrum Limited Global Solutions UK Ltd
 					</h1>
 					<p className="leading-[22.85714286px] text-[16px] text-[#555555] mb-[10.5px]">
 						UK HEAD OFFICE &amp; INTERNATIONAL
@@ -33,15 +33,15 @@ export default function Contact() {
 							<br />
 						</i>
 						<br />
-						Tel : +44 7538 953124 France Dugdale <br />
-						Tel : +44 7444 750607 Alexander Dugdale
+						Tel : +00 0000 00000 France Dugdale <br />
+						Tel : +00 0000 00000 Alexander Dugdale
 						<br />{" "}
 					</p>
 				</div>
 				<div className="h-[230px] md:h-auto">
 					<div className="relative h-full w-full">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/contactImage1.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -53,7 +53,7 @@ export default function Contact() {
 				<div className="order-2 md:order-1 h-[230px] md:h-auto">
 					<div className="relative h-full w-full">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/contactImage2.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -62,7 +62,7 @@ export default function Contact() {
 				</div>
 				<div className="py-4 md:px-12 px-3 order-1 md:order-2">
 					<h1 className="mt-[10px] leading-[42.85714287px] text-[30px] text-[#ff6f20] font-normal normal-case">
-						Veritek Global Solutions UK Ltd
+						Access Fulcrum Limited Global Solutions UK Ltd
 					</h1>
 					<p className="additional-class-872327712 bd-content-element">
 						No 23 Park Lane, Apapa GRA, Lagos, Nigeria
@@ -72,13 +72,13 @@ export default function Contact() {
 						<br />
 						<i>Managing Director</i>
 						<br />
-						Tel: +234 803 705 9593
+						Tel: +234 000 000 000
 						<br />
-						Tel: +234 806 018 0786
+						Tel: +234 000 000 0000
 						<br />
 						Email:{" "}
-						<a href="mailto:france.dugdale@veritek-global-solutions.com">
-							france.dugdale@veritek-global-solutions.com
+						<a href="mailto:france@accessfulcrumlimited-global-solutions.com">
+							france.dugdale@access-global-limited.com
 						</a>
 						<br />
 						<br />
@@ -86,11 +86,11 @@ export default function Contact() {
 						<br />
 						<i>Manager and WAF Ops Coordinator</i>
 						<br />
-						Tel: +234 909 327 5758
+						Tel: +234 000 000 0000
 						<br />
 						Email:{" "}
-						<a href="mailto:tony.afangide@veritek-global-solutions.com">
-							tony.afangide@veritek-global-solutions.com
+						<a href="mailto:france@accessfulcrumlimited-global-solutions.com">
+							tony.afangide@access-global-limited.com
 						</a>
 					</p>
 				</div>

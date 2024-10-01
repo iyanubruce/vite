@@ -4,7 +4,8 @@ import Navbar from "../components/Navbar/navbar";
 import Image from "next/image";
 import ImageSlideShow from "../components/imageSlideshow/ImageSlideShow";
 import Slideshow from "@/components/newsSlideShow/slideshow";
-import React, { useEffect} from "react";
+import Footer from "@/components/footer/Footer";
+import React, { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
@@ -108,8 +109,8 @@ export default function Home() {
               </h1>
               <div className="w-[70px] h-[4px] mx-auto bg-white mt-[10px] mb-[15px]"></div>
               <p className="text-center mb-[42.5px] text-white font-normal leading-[23.8px] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
-                Veritek Global Solutions is committed to Customer Service
-                Excellence Worldwide. Anticipating our Customer&apos;s
+                Access Global Limited Global Solutions is committed to Customer
+                Service Excellence Worldwide. Anticipating our Customer&apos;s
                 expectations, as well as adding value at every opportunity is
                 the foundation of everything we do.
               </p>
@@ -134,10 +135,10 @@ export default function Home() {
           <Slideshow />
         </div>
       </div>
-      <div className="bg-[#2a6ebb] pt-5 pb-5 h-[200px]">
+      {/* <div className="bg-[#2a6ebb] pt-5 pb-5 h-[200px]">
         <h1 className="text-center text-[15px] leading-[21.43px] text-white font-bold mb-[10.5px]">
           {" "}
-          © Veritek Global Solutions Limited - 2024
+          ©Access Global Limited- 2024
         </h1>
         <p className="text-center text-[12px] leading-[17.14px] text-[#bcd5f0] mb-[10.5px]">
           Terms and Conditions Apply
@@ -162,7 +163,8 @@ export default function Home() {
             alt="footer3"
           />
         </div>
-      </div>
+      </div>*/}
+      <Footer />
     </div>
   );
 }

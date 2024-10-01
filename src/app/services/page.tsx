@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "@/components/Navbar/navbar";
 import Footer from "@/components/footer/Footer";
 import Image from "next/image";
@@ -40,7 +40,7 @@ export default function Services() {
 			</h1>
 			<div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
 			<h1 className="text-[#555555] lato text-center font-[300] leading-[42.86px] text-[30px]">
-				Veritek provides Independent Quantity & Quality verification on
+				Access Global Limited provides Independent Quantity & Quality verification on
 				a wide range of
 				<br /> commodities wherever custody transfer takes place.
 			</h1>
@@ -50,7 +50,7 @@ export default function Services() {
 						Oil and Gas Cargo Inspection & Testing Services
 					</h1>
 					<p className="leading-[22.85714286px] mt-[46.5px] mb-[10.5px] text-[#555555] text-[16px]">
-						Veritek provides a wide range of inspection services on
+						Access Global Limited provides a wide range of inspection services on
 						Crude Oil and Petroleum Products, Oil and Gas Cargoes
 						including:
 					</p>
@@ -71,7 +71,7 @@ export default function Services() {
 				<div className="grid auto-rows-[80vw] md:auto-rows-auto grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-[10px]">
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage1.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -87,7 +87,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage2.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -95,7 +95,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage3.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -109,7 +109,7 @@ export default function Services() {
 						Metal & Minerals Inspection Services
 					</h1>
 					<p className="leading-[22.85714286px] text-[#555555] text-[16px] font-normal break-words mb-[10.5px]">
-						Veritek provides Inspection and Sampling of Minerals,
+						Access Fulcrum Limited provides Inspection and Sampling of Minerals,
 						Mineral-concentrates and Ores in Nigeria and Democratic
 						Republic of Congo. Our Inspectors are located at key
 						points in the supply chain from Mining Sites,
@@ -139,7 +139,7 @@ export default function Services() {
 				<div className="grid grid-cols-1 md:grid-cols-4 mt-[36px] auto-rows-[230px] gap-[10px]">
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage4.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -147,7 +147,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage5.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -155,7 +155,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage6.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -163,7 +163,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage7.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -178,7 +178,7 @@ export default function Services() {
 				<div className="grid auto-rows-[230px] md:auto-rows-auto  md:grid-cols-2 mt-[10px] md:grid-rows-2 gap-[10px] md:order-1 order-2">
 					<div className="relative ">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage8.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -186,7 +186,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage9.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -194,7 +194,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage10.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -202,7 +202,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage11.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -214,7 +214,7 @@ export default function Services() {
 						Collateral Management and Warehousing
 					</h1>
 					<p className="leading-[22.85714286px] mt-[46.5px] mb-[10.5px] text-[#555555] text-[16px]">
-						Veritek provides Collateral Management and Stock Control
+						Access Fulcrum Limited provides Collateral Management and Stock Control
 						Services to Banks and Commodity Traders at key points in
 						the supply chain. We take great care in selecting our
 						staff to maintain the highest level of integrity which
@@ -237,7 +237,7 @@ export default function Services() {
 						AGRI Commodities
 					</h1>
 					<p className="leading-[22.85714286px] text-[#555555] text-[16px] font-normal mb-[10.5px] break-words">
-						Veritek provides Inspection, Supervision, Warehousing,
+						 Access Fulcrum Limited provides Inspection, Supervision, Warehousing,
 						Container Stuffing and Collateral Management Services on
 						a wide range of Agricultural Commodities at Ports and
 						Warehouses. Commodities handles include:
@@ -259,7 +259,7 @@ export default function Services() {
 				<div className="grid auto-rows-[230px] md:auto-cols-auto md:grid-cols-2 md:grid-rows-2 gap-[10px]">
 					<div className="col-span-1 row-span-2 relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage12.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -267,7 +267,7 @@ export default function Services() {
 					</div>
 					<div className=" relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage13.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -275,7 +275,7 @@ export default function Services() {
 					</div>
 					<div className=" relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage14.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -287,7 +287,7 @@ export default function Services() {
 				<div className="grid auto-rows-[230px] md:auto-cols-auto grid-cols-1 md:grid-cols-2 md:mt-0 mt-[10px] md:grid-rows-2 gap-[10px] md:order-1 order-2">
 					<div className="relative col-span-1 row-span-2 ">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage15.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -295,7 +295,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage16.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -303,7 +303,7 @@ export default function Services() {
 					</div>
 					<div className="relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage17.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -315,7 +315,7 @@ export default function Services() {
 						P&I Club Surveys
 					</h1>
 					<p className="leading-[22.85714286px] mt-[46.5px] mb-[10.5px] text-[#555555] text-[16px]">
-						Veritek provides a range of services to P&I clubs from
+						Access Global Limited provides a range of services to P&I clubs from
 						Hull and Machinery surveys, Cargo and Container Damage
 						Surveys, Loss investigation and Cargo Hold Fitness
 						Surveys.
@@ -349,7 +349,7 @@ export default function Services() {
 				<div className="grid auto-rows-[230px] md:auto-cols-auto grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-[10px]">
 					<div className="col-span-1 row-span-2 relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage18.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -357,7 +357,7 @@ export default function Services() {
 					</div>
 					<div className=" relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage19.jpg"
 							alt="image"
 							fill
 							className="object-cover"
@@ -365,7 +365,7 @@ export default function Services() {
 					</div>
 					<div className=" relative">
 						<Image
-							src="/images/about2.jpg"
+							src="/images/serviceImage20.jpg"
 							alt="image"
 							fill
 							className="object-cover"
