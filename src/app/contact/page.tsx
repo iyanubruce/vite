@@ -33,8 +33,8 @@ export default function Contact() {
 							<br />
 						</i>
 						<br />
-						Tel : +00 0000 00000 France Dugdale <br />
-						Tel : +00 0000 00000 Alexander Dugdale
+						Tel : +00 0000 00000 John Doe <br />
+						Tel : +00 0000 00000 James Doe
 						<br />{" "}
 					</p>
 				</div>
@@ -65,10 +65,10 @@ export default function Contact() {
 						Access Fulcrum Limited Global Solutions UK Ltd
 					</h1>
 					<p className="additional-class-872327712 bd-content-element">
-						No 23 Park Lane, Apapa GRA, Lagos, Nigeria
+						No 23 Lekki, GRA, Lagos, Nigeria
 						<br />
 						<br />
-						<b>Mrs. France Dugdale</b>
+						<b>Mrs. John Doe</b>
 						<br />
 						<i>Managing Director</i>
 						<br />
@@ -78,11 +78,11 @@ export default function Contact() {
 						<br />
 						Email:{" "}
 						<a href="mailto:france@accessfulcrumlimited-global-solutions.com">
-							france.dugdale@access-global-limited.com
+							johndoe@access-global-limited.com
 						</a>
 						<br />
 						<br />
-						<b>Mr. Tony Afangide</b>
+						<b>Mr. Ton Doe</b>
 						<br />
 						<i>Manager and WAF Ops Coordinator</i>
 						<br />
@@ -90,7 +90,7 @@ export default function Contact() {
 						<br />
 						Email:{" "}
 						<a href="mailto:france@accessfulcrumlimited-global-solutions.com">
-							tony.afangide@access-global-limited.com
+							janedoe@access-global-limited.com
 						</a>
 					</p>
 				</div>

@@ -6,7 +6,7 @@ function Footer() {
 			<div className="bg-[#2a6ebb] pt-5 pb-5 h-[200px]">
 				<h1 className="text-center text-[15px] leading-[21.43px] text-white font-bold mb-[10.5px]">
 					{" "}
-					© Access Global Limited - 2024
+					© Access Fulcrum Limited - 2024
 				</h1>
 				<p className="text-center text-[12px] leading-[17.14px] text-[#bcd5f0] mb-[10.5px]">
 					Terms and Conditions Apply
