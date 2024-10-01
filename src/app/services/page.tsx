@@ -2,6 +2,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar/navbar";
 import Footer from "@/components/footer/Footer";
+import Link from "next/link"
 import Image from "next/image";
 export default function Services() {
 	// useEffect(() => {
@@ -64,9 +65,9 @@ export default function Services() {
 						<li>Oil and Gas Terminal Audits</li>
 						<li>Cargo Superintendence and laboratory Analysis.</li>
 					</ul>
-					<button className="border-0 p-0 mt-[36px]  mb-[10px] md:mb-0 text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] hover:bg-[#5895da] focus:bg-[#5895da] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
+					<Link href="mailto:contact@access-fulcrum.com" className="border-0 p-0 mt-[36px] block  mb-[10px] md:mb-0 text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] hover:bg-[#5895da] focus:bg-[#5895da] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
 						Contact us
-					</button>
+					</Link>
 				</div>
 				<div className="grid auto-rows-[80vw] md:auto-rows-auto grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-[10px]">
 					<div className="relative">
@@ -132,9 +133,9 @@ export default function Services() {
 						<li>Sample Preparation</li>
 						<li>Assaying Services</li>
 					</ul>
-					<button className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
+					<Link href="mailto:contact@access-fulcrum.com" className="block border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
 						Contact us
-					</button>
+					</Link>
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-4 mt-[36px] auto-rows-[230px] gap-[10px]">
 					<div className="relative">
@@ -223,9 +224,9 @@ export default function Services() {
 						movement of the commodity. We handle Petroleum and
 						Agricultural Products.
 					</p>
-					<button className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
+					<Link href="mailto:contact@access-fulcrum.com" className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
 						Contact us
-					</button>
+					</Link>
 				</div>
 			</div>
 
@@ -252,9 +253,9 @@ export default function Services() {
 						<li>Sugar</li>
 						<li>Timber</li>
 					</ul>
-					<button className="border-0 p-0 hover:bg-[#5895da] focus:bg-[#5895da] mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
+					<Link href="mailto:contact@access-fulcrum.com" className="border-0 p-0 hover:bg-[#5895da] focus:bg-[#5895da] mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
 						Contact us
-					</button>
+					</Link>
 				</div>
 				<div className="grid auto-rows-[230px] md:auto-cols-auto md:grid-cols-2 md:grid-rows-2 gap-[10px]">
 					<div className="col-span-1 row-span-2 relative">
@@ -320,9 +321,9 @@ export default function Services() {
 						Surveys, Loss investigation and Cargo Hold Fitness
 						Surveys.
 					</p>
-					<button className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
+					<Link href="mailto:contact@access-fulcrum.com" className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
 						Contact us
-					</button>
+					</Link>
 				</div>
 			</div>
 			<div className="my-[30px] p-[18px] w-full max-w-[1170px] mx-auto grid grid-cols-1 md:grid-cols-2 bg-white shadow-[0px_5px_10px_0px_rgba(0,0,0,0.25)]">
@@ -342,9 +343,9 @@ export default function Services() {
 						<li>Oil Storage Tank Inspection by Drone / UAV</li>
 						<li>STS Oil Hose Pressure Testing</li>
 					</ul>
-					<button className="border-0 p-0 mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold hover:bg-[#5895da] focus:bg-[#5895da] bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
+					<Link href="mailto:contact@access-fulcrum.com" className="border-0 p-0 mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold hover:bg-[#5895da] focus:bg-[#5895da] bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none">
 						Contact us
-					</button>
+					</Link>
 				</div>
 				<div className="grid auto-rows-[230px] md:auto-cols-auto grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-[10px]">
 					<div className="col-span-1 row-span-2 relative">

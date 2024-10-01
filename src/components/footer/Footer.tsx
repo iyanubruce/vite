@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 function Footer() {
 	return (
 		<>
@@ -11,26 +10,6 @@ function Footer() {
 				<p className="text-center text-[12px] leading-[17.14px] text-[#bcd5f0] mb-[10.5px]">
 					Terms and Conditions Apply
 				</p>
-				<div className="flex gap-5 justify-center mt-10">
-					<Image
-						src="/images/footer1.png"
-						width={53}
-						height={52}
-						alt="footer1"
-					/>
-					<Image
-						src="/images/footer2.png"
-						width={128}
-						height={25}
-						alt="footer2"
-					/>
-					<Image
-						src="/images/footer3.png"
-						width={57}
-						height={51}
-						alt="footer3"
-					/>
-				</div>
 			</div>
 			<div className="h-2"></div>
 		</>

@@ -119,7 +119,7 @@ export default function About() {
         <div className="anims anim transition-opacity duration-300 bg-[#bcd5f0] bg-[linear-gradient(0deg,#5895da_0%,rgba(255,255,255,0)_78%)] bg-repeat bg-scroll bg-[0%_0%] p-[5em_2em]">
           <div className="">
             <Image
-              src="/images/lock.png"
+              src="/images/scale.png"
               alt="lock"
               width={70}
               height={70}
@@ -140,7 +140,7 @@ export default function About() {
         <div className="anims anim transition-opacity duration-300 bg-[#dcb5f7] bg-[linear-gradient(0deg,#a847eb_0%,rgba(255,255,255,0)_78%)] bg-repeat bg-scroll bg-[0%_0%] p-[5em_2em]">
           <div className="">
             <Image
-              src="/images/lock.png"
+              src="/images/checkmark.png"
               alt="lock"
               width={70}
               height={70}
