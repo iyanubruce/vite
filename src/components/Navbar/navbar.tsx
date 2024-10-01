@@ -53,25 +53,25 @@ export default function Navbar() {
           <div className="lg:flex gap-5 items-center h-full hidden">
             <Link
               href="/"
-              className={`hover:text-[#2a6ebb] ${pathname.toString() === "/" ? "text-[#ff6f20]" : ""}`}
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/" ? "text-[#ff6f20]" : ""}`}
             >
               Welcome
             </Link>
             <Link
               href="/about"
-              className={`hover:text-[#2a6ebb] ${pathname.toString() === "/about" ? "text-[#ff6f20]" : ""}`}
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/about" ? "text-[#ff6f20]" : ""}`}
             >
               About us{" "}
             </Link>
             <Link
               href="/services"
-              className={`hover:text-[#2a6ebb] ${pathname.toString() === "/services" ? "text-[#ff6f20]" : ""}`}
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/services" ? "text-[#ff6f20]" : ""}`}
             >
               Our Services
             </Link>
             <Link
               href="/contact"
-              className={`hover:text-[#2a6ebb] ${pathname.toString() === "/contact" ? "text-[#ff6f20]" : ""}`}
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/contact" ? "text-[#ff6f20]" : ""}`}
             >
               Contact Us
             </Link>
@@ -79,10 +79,30 @@ export default function Navbar() {
           <div
             className={`lg:hidden w-full h-max absolute gap-5 items-center left-0 bottom-0 transform bg-white translate-y-full flex-col ${menuOpen ? "flex" : "hidden"}`}
           >
-            <Link href="/">Welcome</Link>
-            <Link href="/about">About us </Link>
-            <Link href="/services">Our Services</Link>
-            <Link href="/contact">Contact Us</Link>
+            <Link
+              href="/"
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/" ? "text-[#ff6f20]" : ""}`}
+            >
+              Welcome
+            </Link>
+            <Link
+              href="/about"
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/about" ? "text-[#ff6f20]" : ""}`}
+            >
+              About us{" "}
+            </Link>
+            <Link
+              href="/services"
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/services" ? "text-[#ff6f20]" : ""}`}
+            >
+              Our Services
+            </Link>
+            <Link
+              href="/contact"
+              className={`hover:text-[#2a6ebb] focus:text-[#2a6ebb] ${pathname.toString() === "/contact" ? "text-[#ff6f20]" : ""}`}
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>
