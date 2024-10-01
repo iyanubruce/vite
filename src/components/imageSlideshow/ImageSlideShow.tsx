@@ -1,10 +1,11 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link"
 export default function ImageSlideShow() {
-  const images = ["HeroSlider.jpg", "HeroSlider2.jpg", "about3.jpg"];
+  const images = ["HeroSlider.jpg", "HeroSlider2.jpg", "HeroSlider3.jpg"];
   const [imIndex, setImIndex] = useState(0);
-
+  const [isPaused, setIsPaused] = useState(false);
   // Next Image Handler
   const nextImage = () => {
     setImIndex((index) => (index === images.length - 1 ? 0 : index + 1));
@@ -15,12 +16,27 @@ export default function ImageSlideShow() {
     setImIndex((index) => (index === 0 ? images.length - 1 : index - 1));
   };
   useEffect(() => {
-    const interval = setInterval(() => {
-      nextImage();
-    }, 3000); // 3 seconds interval
+    let interval: NodeJS.Timeout | null = null;
 
-    return () => clearInterval(interval); // Cleanup on unmount
-  }, []);
+    if (!isPaused) {
+      interval = setInterval(() => {
+        nextImage();
+      }, 3000); // 3 seconds interval
+    }
+
+    return () => {
+      if (interval) clearInterval(interval); // Cleanup interval on unmount or pause
+    };
+  }, [isPaused]); // Make sure to re-run when `isPaused` changes
+
+  const handleMouseEnter = () => {
+    setIsPaused(true); // Pause the slideshow
+  };
+
+  const handleMouseLeave = () => {
+    setIsPaused(false); // Resume the slideshow
+  };
+
   return (
     <div className="relative overflow-hidden h-full w-full">
       {/* Wrapper div for all images */}
@@ -36,7 +52,11 @@ export default function ImageSlideShow() {
               backgroundImage: `url(/images/${image})`,
             }}
           >
-            <div className="bg-black/50 xl:max-w-full lg:max-w-[975px] md:max-w-[750px] pt-[10px] pb-[15px] md:w-[85%] w-full flex flex-col">
+            <div
+              onMouseEnter={handleMouseEnter} // Pause on hover
+              onMouseLeave={handleMouseLeave}
+              className="bg-black/50 xl:max-w-full lg:max-w-[975px] md:max-w-[750px] pt-[10px] pb-[15px] md:w-[85%] w-full flex flex-col"
+            >
               <h1 className="text-white md:text-[64px] text-[39px] font-medium md:leading-[91.43px] leading-[59px] text-center tracking-[-1px] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)] mb-[10.5px]">
                 ACCESS FULCRUM LIMITED
               </h1>
@@ -44,12 +64,16 @@ export default function ImageSlideShow() {
                 Proactive Commodity Inspection & Testing Services
               </h2>
               <h1 className="mt-[32px] mb-[10.5px] text-white text-[16px] md:text-[21px] md:leading-[30px] leading-[23px] text-center font-normal tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
-                At Access Global Limited, making a difference means setting the standards by
-                which others wish to aspire.
+                At Access Global Limited, making a difference means setting the
+                standards by which others wish to aspire.
               </h1>
-              <button className="mx-auto mt-[30px] text-white block self-end align-middle text-center text-[14px] font-semibold bg-[#FF6F18] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px]">
+              <Link
+                href="/contact"
+                onClick={handleMouseEnter}
+                className="mx-auto mt-[30px] text-white block self-end align-middle text-center text-[14px] font-semibold hover:bg-[#ffa370] focus:bg-[#ffa370] bg-[#FF6F18] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px]"
+              >
                 contact us
-              </button>
+              </Link>
             </div>
           </div>
         ))}
