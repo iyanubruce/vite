@@ -161,13 +161,13 @@ export default function About() {
               implemented a Quality Management System in accordance with the
               requirements of ISO 9001:2015.
             </p>
-            <Image
+            {/* <Image
               src="/images/quality.jpg"
               alt="lock"
               width={219.33}
               height={74.7}
               className="mx-auto"
-            />
+            /> */}
           </div>
         </div>
       </div>
