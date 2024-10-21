@@ -22,7 +22,7 @@ export default function About() {
       },
       {
         threshold: 0.4, // 40% visibility required to trigger
-      },
+      }
     );
 
     const animElements = document.querySelectorAll(".anims");
@@ -45,25 +45,26 @@ export default function About() {
       <div className="w-[100%] max-w-[1170px] gap-5 px-3 md:px-0 grid grid-cols-1 md:grid-cols-2 mx-auto mt-[45.5px]">
         <div className="leading-[21.43px] text-[15px] font-thin text-[#555555]">
           <b className="font-bold">ACCESS FULCRUM LIMITED</b> is an Africa
-          focused Independent Inspection Company with headquarters in Lagos
-          with operations in West Africa, including Nigeria, Kenya, Djibouti,
-          the Democratic Republic of Congo, Ivory Coast, Togo and
-          Angola.Commodities inspected: Sampling & Testing of Metals, Mineral
-          Concentrates & Ores – Agricultural – Oil – Gas – Chemicals.
+          focused Independent Inspection Company with headquarters in Lagos with
+          operations in West Africa, including Nigeria, Kenya, Djibouti, the
+          Democratic Republic of Congo, Ivory Coast, Togo and Angola.Commodities
+          inspected: Sampling & Testing of Metals, Mineral Concentrates & Ores –
+          Agricultural – Oil – Gas – Chemicals.
         </div>
         <div className="leading-[21.43px] text-[15px] font-thin text-[#555555]">
-          The company coordinates inspection and testing nominations from its Lagos
-          head office or regional HQ in Lagos, Nigeria providing customers with
-          a central point of contact and with a personal touch 24/7 every day of
-          the year. Our aim is to provide a personal and knowledgeable service.
-          Whenever you make contact with Access Fulcrum Limited, you will find we are happy to
-          help you with any of your commodity inspection needs.
+          The company coordinates inspection and testing nominations from its
+          Lagos head office or regional HQ in Lagos, Nigeria providing customers
+          with a central point of contact and with a personal touch 24/7 every
+          day of the year. Our aim is to provide a personal and knowledgeable
+          service. Whenever you make contact with Access Fulcrum Limited, you
+          will find we are happy to help you with any of your commodity
+          inspection needs.
         </div>
       </div>
       <div className=" anims anim transition-opacity duration-200 w-[100%] max-w-[1170px] px-3 md:px-0 grid-cols-1 grid md:grid-cols-3 mx-auto mt-[45.5px] gap-[10px] auto-rows-[251.97px]">
         <div className="shadow-[0px_10px_15px_0px_rgba(0,0,0,0.3)] relative">
           <Image
-            src="/images/about1.jpg"
+            src="/images/serviceImage9.jpg"
             alt="image"
             fill
             className="object-cover"
@@ -71,7 +72,7 @@ export default function About() {
         </div>
         <div className="shadow-[0px_10px_15px_0px_rgba(0,0,0,0.3)] relative">
           <Image
-            src="/images/about2.jpg"
+            src="/images/serviceImage19.jpg"
             alt="image"
             fill
             className="object-cover"
@@ -79,7 +80,7 @@ export default function About() {
         </div>
         <div className="shadow-[0px_10px_15px_0px_rgba(0,0,0,0.3)] relative">
           <Image
-            src="/images/about3.jpg"
+            src="/images/serviceImage4.jpg"
             alt="image"
             fill
             className="object-cover"
@@ -107,12 +108,12 @@ export default function About() {
               Safety
             </h1>
             <p className="leading-[21.42857143px] text-center text-[15px] text-white">
-              Access Fulcrum Limited believes that good Health, Safety & Environmental
-              performance enhances the financial well being of its business.
-              Access Fulcrum Limited recognizes its responsibilities towards all personnel and
-              the environment. The management is therefore determined not to
-              spare any means or materials in the pursuit of the highest
-              standards of safety at work.
+              Access Fulcrum Limited believes that good Health, Safety &
+              Environmental performance enhances the financial well being of its
+              business. Access Fulcrum Limited recognizes its responsibilities
+              towards all personnel and the environment. The management is
+              therefore determined not to spare any means or materials in the
+              pursuit of the highest standards of safety at work.
             </p>
           </div>
         </div>
@@ -132,8 +133,8 @@ export default function About() {
               We are a fully Independent International Inspection Company
               providing impartial, unbiased results using only approved
               measurement and testing methods. Our clients put their trust in
-              Access Fulcrum Limited to safeguard their interests and our reputation depends on
-              this.
+              Access Fulcrum Limited to safeguard their interests and our
+              reputation depends on this.
             </p>
           </div>
         </div>
@@ -150,15 +151,15 @@ export default function About() {
               Quality
             </h1>
             <p className="leading-[21.42857143px] text-center text-[15px] text-white">
-              Access Fulcrum Limited is an ISO 9001:2015 accredited company committed to
-              providing our customers with efficient, cost effective and
-              professional inspection, sampling and testing services for wet and
-              dry commodities. We are committed to providing services in line
-              with international best practices, applicable regulatory
-              requirements, meets customer specifications and exceeds their
-              expectations. To achieve this, we have implemented a Quality
-              Management System in accordance with the requirements of ISO
-              9001:2015.
+              Access Fulcrum Limited is an ISO 9001:2015 accredited company
+              committed to providing our customers with efficient, cost
+              effective and professional inspection, sampling and testing
+              services for wet and dry commodities. We are committed to
+              providing services in line with international best practices,
+              applicable regulatory requirements, meets customer specifications
+              and exceeds their expectations. To achieve this, we have
+              implemented a Quality Management System in accordance with the
+              requirements of ISO 9001:2015.
             </p>
             <Image
               src="/images/quality.jpg"

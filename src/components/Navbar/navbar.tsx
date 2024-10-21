@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-[999] bg-white/90">
-        <div className="bg-[#2a6ebb] flex items-center justify-center treb text-[#bcd5f0] h-[40px]">
+        <div className="bg-[#2c3093] flex items-center justify-center treb text-[#bcd5f0] h-[40px]">
           <div
             className={`absolute transition-opacity duration-1000 ease-in-out ${detail === 1 ? "opacity-100" : "opacity-0"}`}
           >
@@ -34,13 +34,13 @@ export default function Navbar() {
             {details[1]}
           </div>
         </div>
-        <div className="w-full max-w-[1170px] h-[135px] mx-auto flex justify-between items-center px-10 relative">
+        <div className="w-full max-w-[1170px] h-[135px] mx-auto flex flex-col justify-between items-center px-10 relative">
           <Image
             src="/images/Logo.png"
             alt="logo"
             width={200}
             height={200}
-            className="object-cover"
+            className="object-cover mx-auto"
           />
           <button
             onClick={() => setMenuOpen(!menuOpen)}

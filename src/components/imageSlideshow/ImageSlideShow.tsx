@@ -1,9 +1,19 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 export default function ImageSlideShow() {
-  const images = ["HeroSlider.jpg", "HeroSlider2.jpg", "HeroSlider3.jpg"];
+  const images = [
+    {
+      image: "HeroSlider.jpg",
+      text: "Metals and minerals inspection",
+    },
+    {
+      image: "HeroSlider2.jpg",
+      text: "Agro and allied commodities inspection",
+    },
+    { image: "HeroSlider3.jpg", text: "Oil gas inspection" },
+  ];
   const [imIndex, setImIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   // Next Image Handler
@@ -44,7 +54,7 @@ export default function ImageSlideShow() {
         className="flex transition-transform duration-500 ease-in-out h-full w-full"
         style={{ transform: `translateX(-${imIndex * 100}%)` }}
       >
-        {images.map((image, index) => (
+        {images.map(({ image, text }, index) => (
           <div
             key={index}
             className="bg-cover relative bg-center h-[100%] w-[100%] flex-shrink-0 flex-grow-0 flex justify-center items-center"
@@ -57,11 +67,14 @@ export default function ImageSlideShow() {
               onMouseLeave={handleMouseLeave}
               className="bg-black/50 xl:max-w-full lg:max-w-[975px] md:max-w-[750px] pt-[10px] pb-[15px] md:w-[85%] w-full flex flex-col"
             >
-              <h1 className="text-white md:text-[64px] text-[39px] font-medium md:leading-[91.43px] leading-[59px] text-center tracking-[-1px] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)] mb-[10.5px]">
+              <h1 className="text-white md:text-[64px] text-[39px] font-medium md:leading-[91.43px] leading-[59px] text-center tracking-[-1px] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)] mb-[1.5px]">
                 ACCESS FULCRUM LIMITED
               </h1>
+              <h1 className="mt-[12px] mb-[10.5px] text-white text-[16px] md:text-[21px] md:leading-[30px] leading-[23px] text-center font-normal tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
+                ....exceeding your expectations
+              </h1>
               <h2 className="text-white font-light md:leading-[55.71px] leading-[34px] text-center md:text-[39px] text-[26px] tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)] mb-[10.5px]">
-                Commodity Inspection & Testing Services
+                {text}
               </h2>
               <h1 className="mt-[32px] mb-[10.5px] text-white text-[16px] md:text-[21px] md:leading-[30px] leading-[23px] text-center font-normal tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
                 At Access Fulcrum Limited, making a difference means setting the
