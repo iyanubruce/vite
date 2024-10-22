@@ -39,7 +39,7 @@ export default function Home() {
       <div className="h-[662px] mt-[175px] overflow-hidden flex justify-center items-center bg">
         <ImageSlideShow />
       </div>
-      <div className="anims bg-[url('/images/WELCOME.jpg')] h-[600px] text-4xl text-white font-bold bg-top bg-cover anim transition-opacity duration-200 flex flex-col md:flex-row justify-center items-center pt-[62px] pb-[25px] z-10 overflow-hidden">
+      <div className="anims bg-[url('/images/WELCOME.jpg')] mt-10 h-[600px] text-4xl text-white font-bold bg-top bg-cover anim transition-opacity duration-200 flex flex-col md:flex-row justify-center items-center pt-[62px] pb-[25px] z-10 overflow-hidden">
         Welcome
       </div>
       <div className="bg-[#ebebeb] w-full h-auto">
