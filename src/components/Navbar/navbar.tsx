@@ -7,7 +7,10 @@ export default function Navbar() {
   const router = usePathname();
   const pathname = router;
   const [menuOpen, setMenuOpen] = useState(false);
-  const details = ["contact@access-fulcrum.com", "Coordination: +0000000000"];
+  const details = [
+    "contact@access-fulcrum.com",
+    "Coordination: +234 803 992 6902",
+  ];
 
   const [detail, setDetail] = useState(0);
   const nextDetail = () => {

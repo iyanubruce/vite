@@ -52,11 +52,11 @@ export default function Services() {
           </h1>
           <p className="leading-[22.85714286px] text-[#555555] text-[16px] font-normal break-words mb-[10.5px]">
             Access Fulcrum Limited provides Inspection and Sampling of Minerals,
-            Mineral-concentrates and Ores in Nigeria and Democratic Republic of
-            Congo. Our Inspectors are located at key points in the supply chain
-            from Mining Sites, Intermediary Storage, Warehouses and Ports. We
-            inspect and sample ferrous & non-ferrous metals including rare-earth
-            materials. Our services include
+            Mineral-concentrates and Ores in Nigeria. Our Inspectors are located
+            at key points in the supply chain from Mining Sites, Intermediary
+            Storage, Warehouses and Ports. We inspect and sample ferrous &
+            non-ferrous metals including rare-earth materials. Our services
+            include
           </p>
           <ul className="list-none ml-[10px] -indent-[10px] leading-[22.85714286px] text-[16px]">
             <li className="pl-3 list-disc">
@@ -83,7 +83,7 @@ export default function Services() {
           </ul>
           <Link
             href="mailto:contact@access-fulcrum.com"
-            className=" border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
+            className=" border-0 p-0 mt-[36px] hover:bg-[#4b4fca] focus:bg-[#4b4fca] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2c3093] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
           >
             Contact us
           </Link>
@@ -145,7 +145,7 @@ export default function Services() {
           </ul>
           <Link
             href="mailto:contact@access-fulcrum.com"
-            className="border-0 p-0 mt-[36px] block  mb-[10px] md:mb-0 text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] hover:bg-[#5895da] focus:bg-[#5895da] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
+            className="border-0 p-0 mt-[36px]  mb-[10px] md:mb-0 text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2c3093] hover:bg-[#4b4fca] focus:bg-[#4b4fca] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
           >
             Contact us
           </Link>
@@ -238,7 +238,7 @@ export default function Services() {
           </p>
           <Link
             href="mailto:contact@access-fulcrum.com"
-            className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
+            className="border-0 p-0 mt-[36px] hover:bg-[#4b4fca] focus:bg-[#4b4fca] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2c3093] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
           >
             Contact us
           </Link>
@@ -270,7 +270,7 @@ export default function Services() {
           </ul>
           <Link
             href="mailto:contact@access-fulcrum.com"
-            className="border-0 p-0 hover:bg-[#5895da] focus:bg-[#5895da] mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
+            className="border-0 p-0 hover:bg-[#4b4fca] focus:bg-[#4b4fca] mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2c3093] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
           >
             Contact us
           </Link>
@@ -340,7 +340,7 @@ export default function Services() {
           </p>
           <Link
             href="mailto:contact@access-fulcrum.com"
-            className="border-0 p-0 mt-[36px] hover:bg-[#5895da] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
+            className="border-0 p-0 mt-[36px] hover:bg-[#4b4fca] focus:bg-[#5895da] text-white align-middle inline-block text-center text-[14px] font-semibold bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
           >
             Contact us
           </Link>
@@ -364,7 +364,7 @@ export default function Services() {
           </ul>
           <Link
             href="mailto:contact@access-fulcrum.com"
-            className="border-0 p-0 mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold hover:bg-[#5895da] focus:bg-[#5895da] bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
+            className="border-0 p-0 mt-[36px] text-white align-middle inline-block text-center text-[14px] font-semibold hover:bg-[#4b4fca] focus:bg-[#5895da] bg-[#2a6ebb] uppercase transition-all duration-300 px-8 py-2 rounded-[20px] leading-[20px] bg-none"
           >
             Contact us
           </Link>

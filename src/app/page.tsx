@@ -39,13 +39,13 @@ export default function Home() {
       <div className="h-[662px] mt-[175px] overflow-hidden flex justify-center items-center bg">
         <ImageSlideShow />
       </div>
-      <div className="anims bg-[url('/images/WELCOME.jpg')] h-[500px] text-4xl text-white font-bold bg-center bg-cover anim transition-opacity duration-200 flex flex-col md:flex-row justify-center items-center pt-[62px] pb-[25px] z-10 overflow-hidden">
+      <div className="anims bg-[url('/images/WELCOME.jpg')] h-[600px] text-4xl text-white font-bold bg-top bg-cover anim transition-opacity duration-200 flex flex-col md:flex-row justify-center items-center pt-[62px] pb-[25px] z-10 overflow-hidden">
         Welcome
       </div>
       <div className="bg-[#ebebeb] w-full h-auto">
         <div className="mx-auto p-6 w-[89%] max-w-[1170px]">
           <h1 className="pt-[64px] leading-[57.14px] lato text-[#ff6f20] text-center text-[40px] font-bold tracking-[1px] uppercase">
-            ACCESS FULCRUM LIMITED
+            WELCOME TO ACCESS FULCRUM LIMITED
           </h1>
           <div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
           <h1 className="text-[#555555] mb-9 text-center font-light leading-[42.86px] text-[30px]">
@@ -69,136 +69,6 @@ export default function Home() {
             client-centered excellence. We are committed to ensuring that
             commodities transactions are safe, transparent, and compliant with
             the highest industry standards.{" "}
-          </p>
-          <p className="leading-[21.43px] text-[15px] font-thin text-black mb-[20px]">
-            <h1>Our Vision</h1> To be the trusted global leader in commodities
-            inspection, collateral management and stock monitoring. Ensuring
-            transparency, reliability, and excellence across the, metals and
-            minerals, agricultural and allied commodities and oil and gas
-            sectors.
-          </p>
-          <p className="leading-[21.43px] text-[15px] font-thin text-black mb-[20px]">
-            <h1>Our Mission</h1> At Access Fulcrum Limited, we strive to
-            collaborate with the industry capacity building of our invaluable
-            clients. AFL capacity building will assist clients to go through the
-            crucible of organizational development. There is need to totally
-            recapture the virtue of integrity in inspection industry. Through
-            innovation, professionalism, and commitment to industry standards,
-            we aim to foster sustainable growth and trust in the global
-            commodities market.
-          </p>
-          <p className="leading-[21.43px] text-[15px] font-thin text-black mb-[20px]">
-            <h1>What We Do</h1> We offer a wide range of specialized services to
-            meet the needs of our clients:
-          </p>
-          <ul className="mb-[10.5px] list-disc">
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px] break-words whitespace-normal">
-                ⁠<span className="font-semibold">Inspection Services:</span>{" "}
-                Accurate and timely inspection of commodities, ensuring quality
-                and compliance at every stage of the supply chain.{" "}
-              </span>
-            </li>
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px] break-words whitespace-normal">
-                <span className="font-semibold">
-                  Collateral Management and Stock Monitoring:
-                </span>
-                ⁠ Secure, transparent, and reliable collateral management
-                services that support financing and risk mitigation for
-                commodities trading.{" "}
-              </span>
-            </li>
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px]">
-                <span className="font-semibold">
-                  Verification & Certification:
-                </span>
-                Independent verification and certification services, giving our
-                clients confidence in the integrity of their transactions.{" "}
-              </span>
-            </li>
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px]">
-                <span className="font-semibold">Sector Specialization:</span>
-                Expertise in metals and minerals, and agricultural and allied
-                commodities and oil and gas, offering industry-specific
-                solutions tailored to our client’s needs.
-              </span>
-            </li>
-          </ul>
-          Our Core Values
-          <ul className="mb-[10.5px] list-disc">
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px] break-words whitespace-normal">
-                <span className="font-semibold">Integrity:</span> We uphold the
-                highest standards of honesty and transparency in all our
-                operations, ensuring trust in every service we provide.{" "}
-              </span>
-            </li>
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px] break-words whitespace-normal">
-                <span className="font-semibold">Reliability:</span> We deliver
-                consistent and dependable services, meeting our client&apos;s
-                needs with precision and professionalism.{" "}
-              </span>
-            </li>
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px]">
-                <span className="font-semibold">Innovation:</span> We embrace
-                the latest technologies to enhance the efficiency, accuracy, and
-                sustainability of our processes.{" "}
-              </span>
-            </li>
-            <li className="ml-[10px] list-disc">
-              <span className="mb-[10px]">
-                <span className="font-semibold">
-                  Client-Centered Excellence:
-                </span>{" "}
-                We prioritize our clients, offering tailored solutions that
-                build long-lasting partnerships.
-              </span>
-            </li>
-          </ul>{" "}
-          <p className="leading-[21.43px] text-[15px] font-thin text-black mb-[20px]">
-            <h1>Why Choose Us?</h1>
-            <ul className="mb-[10.5px] list-disc">
-              <li className="ml-[10px] list-disc">
-                <span className="mb-[10px] break-words whitespace-normal">
-                  <span className="font-semibold">Experienced Team:</span> Our
-                  professionals have extensive expertise in commodities
-                  inspection and management.
-                </span>
-              </li>
-              <li className="ml-[10px] list-disc">
-                <span className="mb-[10px] break-words whitespace-normal">
-                  <span className="font-semibold">Global Reach:</span> AFL
-                  operates globally, providing services to clients across
-                  diverse markets and sectors.
-                </span>
-              </li>
-              <li className="ml-[10px] list-disc">
-                <span className="mb-[10px]">
-                  <span className="font-semibold">Industry Compliance:</span> We
-                  adhere to international standards and best practices, ensuring
-                  the highest quality of service.
-                </span>
-              </li>
-              <li className="ml-[10px] list-disc">
-                <span className="mb-[10px]">
-                  <span className="font-semibold">Industry Compliance:</span>
-                  Sector Specialization: Expertise in metals and minerals, and
-                  agricultural and allied commodities and oil and gas, offering
-                  industry-specific solutions tailored to our clients’ needs.
-                </span>
-              </li>
-            </ul>{" "}
-          </p>
-          <p className="leading-[21.43px] text-[15px] font-thin text-black mb-[20px]">
-            <h1>Our Clients</h1> We proudly serve a diverse portfolio of
-            clients, including major corporations, banks, and traders in the
-            commodities industry. Our commitment to excellence has earned us
-            long-standing partnerships based on trust and mutual success.
           </p>
         </div>
         {/* <div className="w-full md:w-[580px] break-words brword px-5">

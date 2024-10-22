@@ -6,13 +6,13 @@ export default function ImageSlideShow() {
   const images = [
     {
       image: "HeroSlider.jpg",
-      text: "Metals and minerals inspection",
+      text: "Metals and Minerals Inspection",
     },
     {
       image: "HeroSlider2.jpg",
       text: "Agro and allied commodities inspection",
     },
-    { image: "HeroSlider3.jpg", text: "Oil gas inspection" },
+    { image: "HeroSlider3.jpg", text: "Oil and gas inspection" },
   ];
   const [imIndex, setImIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -76,10 +76,6 @@ export default function ImageSlideShow() {
               <h2 className="text-white font-light md:leading-[55.71px] leading-[34px] text-center md:text-[39px] text-[26px] tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)] mb-[10.5px]">
                 {text}
               </h2>
-              <h1 className="mt-[32px] mb-[10.5px] text-white text-[16px] md:text-[21px] md:leading-[30px] leading-[23px] text-center font-normal tracking-[0] [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">
-                At Access Fulcrum Limited, making a difference means setting the
-                standards by which others wish to aspire.
-              </h1>
               <Link
                 href="/contact"
                 onClick={handleMouseEnter}

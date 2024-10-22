@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar/navbar";
 import Image from "next/image";
 import Footer from "@/components/footer/Footer";
-import Slideshow from "@/components/valuesSlideshow/slideshow";
+// import Slideshow from "@/components/valuesSlideshow/slideshow";
 import React, { useEffect } from "react";
 
 export default function About() {
@@ -42,7 +42,7 @@ export default function About() {
       <h1 className="text-[#555555] text-center font-light leading-[42.86px] text-[30px]">
         An Independent inspection company with global reach!
       </h1>
-      <div className="w-[100%] max-w-[1170px] gap-5 px-3 md:px-0 grid grid-cols-1 md:grid-cols-2 mx-auto mt-[45.5px]">
+      {/* <div className="w-[100%] max-w-[1170px] gap-5 px-3 md:px-0 grid grid-cols-1 md:grid-cols-2 mx-auto mt-[45.5px]">
         <div className="leading-[21.43px] text-[15px] font-thin text-[#555555]">
           <b className="font-bold">ACCESS FULCRUM LIMITED</b> is an Africa
           focused Independent Inspection Company with headquarters in Lagos with
@@ -60,7 +60,7 @@ export default function About() {
           will find we are happy to help you with any of your commodity
           inspection needs.
         </div>
-      </div>
+      </div> */}
       <div className=" anims anim transition-opacity duration-200 w-[100%] max-w-[1170px] px-3 md:px-0 grid-cols-1 grid md:grid-cols-3 mx-auto mt-[45.5px] gap-[10px] auto-rows-[251.97px]">
         <div className="shadow-[0px_10px_15px_0px_rgba(0,0,0,0.3)] relative">
           <Image
@@ -87,14 +87,144 @@ export default function About() {
           />
         </div>
       </div>
-
-      <h1 className="mt-[44px] text-center text-[30px] leading-[42.86px] text-[#ff6f20] font-normal">
-        Our Core Values
-      </h1>
-      <div className="w-[100%] max-w-[1170px] mx-auto">
-        <Slideshow />
+      <div className="w-[100%] max-w-[1170px] gap-5 px-3 md:px-0 mx-auto leading-[21.43px] text-[15px] font-thin text-[#555555] mt-10">
+        <div className="leading-[21.43px] text-[15px] font-thin  mb-[20px]">
+          <h1 className="font-bold text-center my-5">Our Vision</h1> To be the
+          trusted global leader in commodities inspection, collateral management
+          and stock monitoring. Ensuring transparency, reliability, and
+          excellence across the, metals and minerals, agricultural and allied
+          commodities and oil and gas sectors.
+        </div>
+        <div className="leading-[21.43px] text-[15px] font-thin  mb-[20px]">
+          <h1 className="font-bold text-center my-5">Our Mission</h1> At Access
+          Fulcrum Limited, we strive to collaborate with the industry capacity
+          building of our invaluable clients. AFL capacity building will assist
+          clients to go through the crucible of organizational development.
+          There is need to totally recapture the virtue of integrity in
+          inspection industry. Through innovation, professionalism, and
+          commitment to industry standards, we aim to foster sustainable growth
+          and trust in the global commodities market.
+        </div>
+        <div className="leading-[21.43px] text-[15px] font-thin  mb-[20px]">
+          <h1 className="font-bold text-center my-5">What We Do</h1> We offer a
+          wide range of specialized services to meet the needs of our clients:
+        </div>
+        <ul className="mb-[10.5px] list-disc">
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px] break-words whitespace-normal">
+              ⁠<span className="font-semibold">Inspection Services:</span>{" "}
+              Accurate and timely inspection of commodities, ensuring quality
+              and compliance at every stage of the supply chain.{" "}
+            </span>
+          </li>
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px] break-words whitespace-normal">
+              <span className="font-semibold">
+                Collateral Management and Stock Monitoring:
+              </span>
+              ⁠ Secure, transparent, and reliable collateral management services
+              that support financing and risk mitigation for commodities
+              trading.{" "}
+            </span>
+          </li>
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px]">
+              <span className="font-semibold">
+                Verification & Certification:
+              </span>
+              Independent verification and certification services, giving our
+              clients confidence in the integrity of their transactions.{" "}
+            </span>
+          </li>
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px]">
+              <span className="font-semibold">Sector Specialization:</span>
+              Expertise in metals and minerals, and agricultural and allied
+              commodities and oil and gas, offering industry-specific solutions
+              tailored to our client’s needs.
+            </span>
+          </li>
+        </ul>
+        <h1 className="font-bold text-center my-5">Our Core Values</h1>
+        <ul className="mb-[10.5px] list-disc">
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px] break-words whitespace-normal">
+              <span className="font-semibold">Integrity:</span> We uphold the
+              highest standards of honesty and transparency in all our
+              operations, ensuring trust in every service we provide.{" "}
+            </span>
+          </li>
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px] break-words whitespace-normal">
+              <span className="font-semibold">Reliability:</span> We deliver
+              consistent and dependable services, meeting our client&apos;s
+              needs with precision and professionalism.{" "}
+            </span>
+          </li>
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px]">
+              <span className="font-semibold">Innovation:</span> We embrace the
+              latest technologies to enhance the efficiency, accuracy, and
+              sustainability of our processes.{" "}
+            </span>
+          </li>
+          <li className="ml-[10px] list-disc">
+            <span className="mb-[10px]">
+              <span className="font-semibold">Client-Centered Excellence:</span>{" "}
+              We prioritize our clients, offering tailored solutions that build
+              long-lasting partnerships.
+            </span>
+          </li>
+        </ul>{" "}
+        <div className="leading-[21.43px] text-[15px] font-thin  mb-[20px]">
+          <h1 className="font-bold text-center my-5">Why Choose Us?</h1>
+          <ul className="mb-[10.5px] list-disc">
+            <li className="ml-[10px] list-disc">
+              <span className="mb-[10px] break-words whitespace-normal">
+                <span className="font-semibold">Experienced Team:</span> Our
+                professionals have extensive expertise in commodities inspection
+                and management.
+              </span>
+            </li>
+            <li className="ml-[10px] list-disc">
+              <span className="mb-[10px] break-words whitespace-normal">
+                <span className="font-semibold">Global Reach:</span> AFL
+                operates globally, providing services to clients across diverse
+                markets and sectors.
+              </span>
+            </li>
+            <li className="ml-[10px] list-disc">
+              <span className="mb-[10px]">
+                <span className="font-semibold">Industry Compliance:</span> We
+                adhere to international standards and best practices, ensuring
+                the highest quality of service.
+              </span>
+            </li>
+            <li className="ml-[10px] list-disc">
+              <span className="mb-[10px]">
+                <span className="font-semibold">Industry Compliance:</span>
+                Sector Specialization: Expertise in metals and minerals, and
+                agricultural and allied commodities and oil and gas, offering
+                industry-specific solutions tailored to our client&apos;s needs.
+              </span>
+            </li>
+          </ul>{" "}
+        </div>
+        <div className="leading-[21.43px] text-[15px] font-thin  mb-[20px]">
+          <h1 className="font-bold text-center my-5">Our Clients</h1> We proudly
+          serve a diverse portfolio of clients, including major corporations,
+          banks, and traders in the commodities industry. Our commitment to
+          excellence has earned us long-standing partnerships based on trust and
+          mutual success.
+        </div>
       </div>
-      <div className="w-[100%] max-w-[1170px] grid grid-cols-1 md:grid-cols-3 mx-auto mt-[45.5px] mb-[20px] gap-[10px]">
+      {/* <h1 className="mt-[44px] text-center text-[30px] leading-[42.86px] text-[#ff6f20] font-normal">
+        Our Core Values
+      </h1> */}
+      {/* <div className="w-[100%] max-w-[1170px] mx-auto">
+        <Slideshow />
+      </div> */}
+      {/* <div className="w-[100%] max-w-[1170px] grid grid-cols-1 md:grid-cols-3 mx-auto mt-[45.5px] mb-[20px] gap-[10px]">
         <div className="anims anim transition-opacity duration-300 bg-[#ffcaad] bg-[linear-gradient(0deg,#ff7b33_0%,rgba(255,255,255,0)_78%)] bg-repeat bg-scroll bg-[0%_0%] p-[5em_2em]">
           <div className="">
             <Image
@@ -167,10 +297,10 @@ export default function About() {
               width={219.33}
               height={74.7}
               className="mx-auto"
-            /> */}
+            /> }
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

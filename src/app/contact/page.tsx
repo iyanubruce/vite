@@ -11,7 +11,7 @@ export default function Contact() {
       </h1>
       <div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
       <h1 className="text-[#555555] lato text-center font-[300] leading-[42.86px] text-[30px]">
-        Lagos Head Office & International Coordination Centre
+        Coordination Centres
       </h1>
       <div className="mt-[60.5px] p-[18px] w-full max-w-[1170px] mx-auto grid grid-cols-1 md:grid-cols-2 bg-white shadow-[0px_5px_10px_0px_rgba(0,0,0,0.25)]">
         <div className="py-4 px-12">
@@ -19,10 +19,8 @@ export default function Contact() {
             Access Fulcrum Limited
           </h1>
           <p className="leading-[22.85714286px] text-[16px] text-[#555555] mb-[10.5px]">
-            LAGOS HEAD OFFICE &amp; INTERNATIONAL
-            <br />
-            COORDINATION CENTRE
-            <br />
+            Abuja Office Plot 242 Muhammadu Buhari Way (2nd Floor) Central
+            Business District, Abuja, Nigeria. <br />
             <br />
             <i>{/*We are currently in the process of changing address.*/}</i>
             <br />
@@ -31,8 +29,8 @@ export default function Contact() {
               <br />
             </i>
             <br />
-            Tel : +00 0000 00000 John Doe <br />
-            Tel : +00 0000 00000 James Doe
+            Tel : +234 803 992 6902 <br />
+            Email : contact@access-fulcrum.com
             <br />{" "}
           </p>
         </div>
@@ -63,19 +61,20 @@ export default function Contact() {
             Access Fulcrum Limited
           </h1>
           <p className="additional-class-872327712 bd-content-element">
-            No 23 Lekki, GRA, Lagos, Nigeria
+            Lagos Office
+            <br /> We are currently in the process of changing address. Our new
+            details will be published shortly.
             <br />
             <br />
             <br />
             <i>Director West Africa & International Operations </i>
             <br />
-            Tel: +234 000 000 000
+            Tel: +234 803 992 6902
             <br />
-            Tel: +234 000 000 0000
             <br />
             Email:{" "}
-            <a href="mailto:chukwuma.okonkwo@access-fulcrum.com">
-              chukwuma.okonkwo@access-fulcrum.com
+            <a href="mailto:contact@access-fulcrum.com">
+              contact@access-fulcrum.com{" "}
             </a>
             <br />
             <br />
