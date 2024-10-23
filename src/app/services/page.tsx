@@ -40,10 +40,10 @@ export default function Services() {
         Our services
       </h1>
       <div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
-      <h1 className="text-[#555555] lato text-center font-[300] leading-[42.86px] text-[30px]">
+      <h1 className="text-[#000000] lato text-center font-[300] leading-[42.86px] text-[30px]">
         Access Fulcrum Limited provides Independent Quantity & Quality
-        verification on a wide range of
-        <br /> commodities wherever custody transfer takes place.
+        verification on a wide
+        <br /> range of commodities wherever custody transfer takes place.
       </h1>
       <div className="mt-[80.5px] p-[18px] w-full max-w-[1170px] mx-auto grid grid-cols-1  md:grid-cols-2 bg-white shadow-[0px_5px_10px_0px_rgba(0,0,0,0.25)]">
         <div className="md:px-12 px-3">

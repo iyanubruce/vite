@@ -67,7 +67,7 @@ export default function Contact() {
             <br />
             <br />
             <br />
-            <i>Director West Africa & International Operations </i>
+            {/* <i>Director West Africa & International Operations </i> */}
             <br />
             Tel: +234 803 992 6902
             <br />

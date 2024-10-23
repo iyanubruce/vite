@@ -10,9 +10,9 @@ export default function ImageSlideShow() {
     },
     {
       image: "HeroSlider2.jpg",
-      text: "Agro and allied commodities inspection",
+      text: "Agro and Allied Commodities Inspection",
     },
-    { image: "HeroSlider3.jpg", text: "Oil and gas inspection" },
+    { image: "HeroSlider3.jpg", text: "Oil and Gas Inspection" },
   ];
   const [imIndex, setImIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);

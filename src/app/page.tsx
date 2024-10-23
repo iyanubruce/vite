@@ -44,13 +44,13 @@ export default function Home() {
       </div>
       <div className="bg-[#ebebeb] w-full h-auto">
         <div className="mx-auto p-6 w-[89%] max-w-[1170px]">
-          <h1 className="pt-[64px] leading-[57.14px] lato text-[#ff6f20] text-center text-[40px] font-bold tracking-[1px] uppercase">
+          <h1 className="pt-[64px] leading-[57.14px] mb-9 lato text-[#ff6f20] text-center text-[40px] font-bold tracking-[1px] uppercase">
             WELCOME TO ACCESS FULCRUM LIMITED
           </h1>
-          <div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
+          {/* <div className="w-[115.5px] h-[2px] bg-black my-[10px] mx-auto" />
           <h1 className="text-[#555555] mb-9 text-center font-light leading-[42.86px] text-[30px]">
             ...exceeding your expectations
-          </h1>
+          </h1> */}
           <p className="leading-[21.43px] text-[15px] font-thin text-black mb-[20px]">
             Access Fulcrum Limited is a leading worldwide independent provider
             of comprehensive commodities inspection, collateral management and
