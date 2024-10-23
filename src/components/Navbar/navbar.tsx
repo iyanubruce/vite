@@ -41,8 +41,8 @@ export default function Navbar() {
           <Image
             src="/images/Logo.png"
             alt="logo"
-            width={200}
-            height={200}
+            width={180}
+            height={100}
             className="object-cover mx-auto"
           />
           <button
