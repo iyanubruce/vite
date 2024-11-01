@@ -202,10 +202,10 @@ export default function About() {
             </li>
             <li className="ml-[10px] list-disc">
               <span className="mb-[10px]">
-                <span className="font-semibold">Industry Compliance:</span>
-                Sector Specialization: Expertise in metals and minerals, and
-                agricultural and allied commodities and oil and gas, offering
-                industry-specific solutions tailored to our client&apos;s needs.
+                <span className="font-semibold">Sector Specialization:</span>
+                Expertise in metals and minerals, and agricultural and allied
+                commodities and oil and gas, offering industry-specific
+                solutions tailored to our client&apos;s needs.
               </span>
             </li>
           </ul>{" "}
