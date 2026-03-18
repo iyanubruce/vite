@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "remixicon/fonts/remixicon.css";
 
 export const metadata: Metadata = {
   title: "Access Fulcrum Limited",
@@ -13,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

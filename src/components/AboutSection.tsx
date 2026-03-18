@@ -1,8 +1,9 @@
+import Image from "next/image";
 const statsData = [
-  { value: '15+', label: 'Years of Experience' },
-  { value: '20+', label: 'Countries Served' },
-  { value: '500+', label: 'Successful Inspections' },
-  { value: '100%', label: 'Client Satisfaction' },
+  { value: "15+", label: "Years of Experience" },
+  { value: "20+", label: "Countries Served" },
+  { value: "500+", label: "Successful Inspections" },
+  { value: "100%", label: "Client Satisfaction" },
 ];
 
 export default function AboutSection() {
@@ -13,7 +14,9 @@ export default function AboutSection() {
           {/* Image side */}
           <div className="relative">
             <div className="w-full h-[480px] rounded-xl overflow-hidden">
-              <img
+              <Image
+                width={400}
+                height={400}
                 src="https://www.access-fulcrum.com/images/WELCOME.jpg"
                 alt="Access Fulcrum Operations"
                 className="w-full h-full object-cover object-top"
@@ -27,7 +30,9 @@ export default function AboutSection() {
               >
                 15+
               </p>
-              <p className="text-[13px] text-white/80 mt-1 font-medium">Years of trusted inspection</p>
+              <p className="text-[13px] text-white/80 mt-1 font-medium">
+                Years of trusted inspection
+              </p>
             </div>
           </div>
 
@@ -44,28 +49,32 @@ export default function AboutSection() {
               A Global Leader in Independent Commodity Inspection
             </h2>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-5">
-              Access Fulcrum Limited is a leading worldwide independent provider of comprehensive
-              commodities inspection, collateral management, and stock monitoring services.
+              Access Fulcrum Limited is a leading worldwide independent provider
+              of comprehensive commodities inspection, collateral management,
+              and stock monitoring services.
             </p>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
-              Founded on the principles of integrity and client-centred excellence, we ensure
-              every commodities transaction is safe, transparent, and compliant with the highest
-              international standards. We specialise in Metals &amp; Minerals, Agricultural, Agro
-              Allied, and Oil &amp; Gas products.
+              Founded on the principles of integrity and client-centred
+              excellence, we ensure every commodities transaction is safe,
+              transparent, and compliant with the highest international
+              standards. We specialise in Metals &amp; Minerals, Agricultural,
+              Agro Allied, and Oil &amp; Gas products.
             </p>
 
             {/* Key credentials */}
             <div className="flex flex-col gap-3">
               {[
-                'Fully independent — no commercial interest in trade outcomes',
-                'Experienced team of certified inspection professionals',
-                'Aligned with global trade compliance frameworks',
+                "Fully independent — no commercial interest in trade outcomes",
+                "Experienced team of certified inspection professionals",
+                "Aligned with global trade compliance frameworks",
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <span className="w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <i className="ri-check-line text-[#E8621A] font-bold text-base" />
                   </span>
-                  <p className="text-[14px] text-gray-600 leading-relaxed">{item}</p>
+                  <p className="text-[14px] text-gray-600 leading-relaxed">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
@@ -82,7 +91,9 @@ export default function AboutSection() {
               >
                 {s.value}
               </p>
-              <p className="text-gray-500 text-[13px] mt-2 tracking-wide">{s.label}</p>
+              <p className="text-gray-500 text-[13px] mt-2 tracking-wide">
+                {s.label}
+              </p>
             </div>
           ))}
         </div>

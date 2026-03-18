@@ -1,74 +1,74 @@
 "use client";
-import Link from 'next/link';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-
+import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Image from "next/image";
 const coreValues = [
   {
-    icon: 'ri-shield-check-line',
-    title: 'Integrity',
-    desc: 'We uphold the highest standards of honesty and transparency in all our operations, ensuring trust in every service we provide.',
+    icon: "ri-shield-check-line",
+    title: "Integrity",
+    desc: "We uphold the highest standards of honesty and transparency in all our operations, ensuring trust in every service we provide.",
   },
   {
-    icon: 'ri-customer-service-2-line',
-    title: 'Reliability',
+    icon: "ri-customer-service-2-line",
+    title: "Reliability",
     desc: "We deliver consistent and dependable services, meeting our client's needs with precision and professionalism.",
   },
   {
-    icon: 'ri-lightbulb-flash-line',
-    title: 'Innovation',
-    desc: 'We embrace the latest technologies to enhance the efficiency, accuracy, and sustainability of our processes.',
+    icon: "ri-lightbulb-flash-line",
+    title: "Innovation",
+    desc: "We embrace the latest technologies to enhance the efficiency, accuracy, and sustainability of our processes.",
   },
   {
-    icon: 'ri-focus-3-line',
-    title: 'Client-Centered Excellence',
-    desc: 'We prioritize our clients, offering tailored solutions that build long-lasting partnerships.',
+    icon: "ri-focus-3-line",
+    title: "Client-Centered Excellence",
+    desc: "We prioritize our clients, offering tailored solutions that build long-lasting partnerships.",
   },
 ];
 
 const capabilities = [
   {
-    icon: 'ri-search-eye-line',
-    title: 'Inspection Services',
-    desc: 'Accurate and timely inspection of commodities, ensuring quality and compliance at every stage of the supply chain.',
+    icon: "ri-search-eye-line",
+    title: "Inspection Services",
+    desc: "Accurate and timely inspection of commodities, ensuring quality and compliance at every stage of the supply chain.",
   },
   {
-    icon: 'ri-bank-line',
-    title: 'Collateral Management',
-    desc: 'Secure, transparent, and reliable collateral management services that support financing and risk mitigation for commodities trading.',
+    icon: "ri-bank-line",
+    title: "Collateral Management",
+    desc: "Secure, transparent, and reliable collateral management services that support financing and risk mitigation for commodities trading.",
   },
   {
-    icon: 'ri-file-check-line',
-    title: 'Verification & Certification',
-    desc: 'Independent verification and certification services, giving our clients confidence in the integrity of their transactions.',
+    icon: "ri-file-check-line",
+    title: "Verification & Certification",
+    desc: "Independent verification and certification services, giving our clients confidence in the integrity of their transactions.",
   },
   {
-    icon: 'ri-pie-chart-2-line',
-    title: 'Sector Specialization',
-    desc: 'Expertise in metals and minerals, agricultural and allied commodities, and oil and gas — offering industry-specific solutions.',
+    icon: "ri-pie-chart-2-line",
+    title: "Sector Specialization",
+    desc: "Expertise in metals and minerals, agricultural and allied commodities, and oil and gas — offering industry-specific solutions.",
   },
 ];
 
 const whyUs = [
   {
-    icon: 'ri-team-line',
-    title: 'Experienced Team',
-    desc: 'Our professionals have extensive expertise in commodities inspection and management.',
+    icon: "ri-team-line",
+    title: "Experienced Team",
+    desc: "Our professionals have extensive expertise in commodities inspection and management.",
   },
   {
-    icon: 'ri-global-line',
-    title: 'Global Reach',
-    desc: 'AFL operates globally, providing services to clients across diverse markets and sectors.',
+    icon: "ri-global-line",
+    title: "Global Reach",
+    desc: "AFL operates globally, providing services to clients across diverse markets and sectors.",
   },
   {
-    icon: 'ri-award-line',
-    title: 'Industry Compliance',
-    desc: 'We adhere to international standards and best practices, ensuring the highest quality of service.',
+    icon: "ri-award-line",
+    title: "Industry Compliance",
+    desc: "We adhere to international standards and best practices, ensuring the highest quality of service.",
   },
   {
-    icon: 'ri-database-2-line',
-    title: 'Sector Specialization',
-    desc: 'Deep expertise across metals & minerals, agricultural commodities, and oil & gas sectors.',
+    icon: "ri-database-2-line",
+    title: "Sector Specialization",
+    desc: "Deep expertise across metals & minerals, agricultural commodities, and oil & gas sectors.",
   },
 ];
 
@@ -80,7 +80,10 @@ export default function AboutPage() {
       {/* Hero */}
       <section
         className="relative min-h-[480px] flex items-center justify-center bg-cover bg-center pt-20"
-        style={{ backgroundImage: "url('https://www.access-fulcrum.com/images/WELCOME.jpg')" }}
+        style={{
+          backgroundImage:
+            "url('https://www.access-fulcrum.com/images/WELCOME.jpg')",
+        }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/80 to-[#0a1628]/60" />
         <div className="relative z-10 text-center px-8 max-w-[760px] mx-auto">
@@ -96,7 +99,8 @@ export default function AboutPage() {
             About Us
           </h1>
           <p className="text-white/70 text-[17px] leading-relaxed">
-            An independent inspection company with global reach, built on integrity and driven by excellence.
+            An independent inspection company with global reach, built on
+            integrity and driven by excellence.
           </p>
         </div>
       </section>
@@ -120,14 +124,14 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {[
               {
-                icon: 'ri-eye-line',
-                title: 'Our Vision',
-                text: 'To be the trusted global leader in commodities inspection, collateral management and stock monitoring. Ensuring transparency, reliability, and excellence across the metals and minerals, agricultural and allied commodities and oil and gas sectors.',
+                icon: "ri-eye-line",
+                title: "Our Vision",
+                text: "To be the trusted global leader in commodities inspection, collateral management and stock monitoring. Ensuring transparency, reliability, and excellence across the metals and minerals, agricultural and allied commodities and oil and gas sectors.",
               },
               {
-                icon: 'ri-rocket-2-line',
-                title: 'Our Mission',
-                text: 'At Access Fulcrum Limited, we strive to collaborate with the industry capacity building of our invaluable clients. Through innovation, professionalism, and commitment to industry standards, we aim to foster sustainable growth and trust in the global commodities market.',
+                icon: "ri-rocket-2-line",
+                title: "Our Mission",
+                text: "At Access Fulcrum Limited, we strive to collaborate with the industry capacity building of our invaluable clients. Through innovation, professionalism, and commitment to industry standards, we aim to foster sustainable growth and trust in the global commodities market.",
               },
             ].map((item, i) => (
               <div
@@ -143,7 +147,9 @@ export default function AboutPage() {
                 >
                   {item.title}
                 </h3>
-                <p className="text-gray-500 text-[15px] leading-relaxed">{item.text}</p>
+                <p className="text-gray-500 text-[15px] leading-relaxed">
+                  {item.text}
+                </p>
               </div>
             ))}
           </div>
@@ -151,7 +157,7 @@ export default function AboutPage() {
       </section>
 
       {/* What We Do */}
-      <section className="py-20" style={{ background: '#0a1628' }}>
+      <section className="py-20" style={{ background: "#0a1628" }}>
         <div className="max-w-[1200px] mx-auto px-8">
           <div className="text-center mb-14">
             <span className="inline-flex items-center gap-2 text-[#E8621A] text-[13px] font-semibold tracking-[0.15em] uppercase mb-4">
@@ -166,7 +172,8 @@ export default function AboutPage() {
               What We Do
             </h2>
             <p className="text-white/50 text-[15px] mt-3 max-w-[540px] mx-auto">
-              We offer a wide range of specialized services to meet the needs of our clients.
+              We offer a wide range of specialized services to meet the needs of
+              our clients.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -184,7 +191,9 @@ export default function AboutPage() {
                 >
                   {s.title}
                 </h4>
-                <p className="text-white/50 text-[13px] leading-relaxed">{s.desc}</p>
+                <p className="text-white/50 text-[13px] leading-relaxed">
+                  {s.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -222,7 +231,9 @@ export default function AboutPage() {
                 >
                   {v.title}
                 </h4>
-                <p className="text-gray-500 text-[13px] leading-relaxed">{v.desc}</p>
+                <p className="text-gray-500 text-[13px] leading-relaxed">
+                  {v.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -245,7 +256,10 @@ export default function AboutPage() {
                 Why Choose Us?
               </h2>
               <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
-                We proudly serve a diverse portfolio of clients, including major corporations, banks, and traders in the commodities industry. Our commitment to excellence has earned us long-standing partnerships based on trust and mutual success.
+                We proudly serve a diverse portfolio of clients, including major
+                corporations, banks, and traders in the commodities industry.
+                Our commitment to excellence has earned us long-standing
+                partnerships based on trust and mutual success.
               </p>
               <div className="flex flex-col gap-5 mb-10">
                 {whyUs.map((item, i) => (
@@ -254,8 +268,12 @@ export default function AboutPage() {
                       <i className={`${item.icon} text-[#E8621A] text-lg`} />
                     </div>
                     <div>
-                      <h5 className="text-[#0a1628] font-semibold text-[15px] mb-1">{item.title}</h5>
-                      <p className="text-gray-500 text-[13px] leading-relaxed">{item.desc}</p>
+                      <h5 className="text-[#0a1628] font-semibold text-[15px] mb-1">
+                        {item.title}
+                      </h5>
+                      <p className="text-gray-500 text-[13px] leading-relaxed">
+                        {item.desc}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -270,28 +288,36 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="w-full h-[240px] rounded-xl overflow-hidden">
-                <img
-                  src="https://www.access-fulcrum.com/images/serviceImage9.jpg"
+                <Image
+                  width={100}
+                  height={100}
+                  src="/images/serviceImage9.jpg"
                   alt="Operations"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="w-full h-[240px] rounded-xl overflow-hidden mt-8">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src="https://www.access-fulcrum.com/images/serviceImage19.jpg"
                   alt="Team"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="w-full h-[240px] rounded-xl overflow-hidden">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src="https://www.access-fulcrum.com/images/serviceImage4.jpg"
                   alt="Minerals"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="w-full h-[240px] rounded-xl overflow-hidden mt-[-32px]">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src="https://www.access-fulcrum.com/images/serviceImage1.jpg"
                   alt="Oil Gas"
                   className="w-full h-full object-cover object-top"
@@ -312,7 +338,8 @@ export default function AboutPage() {
             Ready to work with us?
           </h2>
           <p className="text-white/80 text-[15px] mb-8 max-w-[500px] mx-auto leading-relaxed">
-            Contact our team today to discuss how we can support your commodity inspection and management needs.
+            Contact our team today to discuss how we can support your commodity
+            inspection and management needs.
           </p>
           <Link
             href="/contact"

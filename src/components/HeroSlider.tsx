@@ -1,43 +1,46 @@
-'use client';
-import Link from 'next/link';
-import { useState, useCallback, useEffect } from 'react';
-
+"use client";
+import Link from "next/link";
+import { useState, useCallback, useEffect } from "react";
+import Image from "next/image";
 const slides = [
   {
-    tag: 'Metals & Minerals',
-    headline: 'Precision Inspection\nfor Global Trade',
-    sub: 'World-class inspection services ensuring every commodity transaction is safe, transparent, and compliant.',
+    tag: "Metals & Minerals",
+    headline: "Precision Inspection\nfor Global Trade",
+    sub: "World-class inspection services ensuring every commodity transaction is safe, transparent, and compliant.",
   },
   {
-    tag: 'Agro & Allied Commodities',
-    headline: 'Trusted Standards\nAcross Every Market',
-    sub: 'From farmgate to port — delivering reliable, accurate inspection for agricultural and allied commodities.',
+    tag: "Agro & Allied Commodities",
+    headline: "Trusted Standards\nAcross Every Market",
+    sub: "From farmgate to port — delivering reliable, accurate inspection for agricultural and allied commodities.",
   },
   {
-    tag: 'Oil & Gas',
-    headline: 'Integrity at Every\nStage of Supply',
-    sub: 'Independent verification and stock monitoring that upholds the highest industry standards worldwide.',
+    tag: "Oil & Gas",
+    headline: "Integrity at Every\nStage of Supply",
+    sub: "Independent verification and stock monitoring that upholds the highest industry standards worldwide.",
   },
 ];
 
 const stats = [
-  { value: '3+', label: 'Commodity Sectors' },
-  { value: '100%', label: 'Independent Verification' },
-  { value: '24/7', label: 'Operational Support' },
+  { value: "3+", label: "Commodity Sectors" },
+  { value: "100%", label: "Independent Verification" },
+  { value: "24/7", label: "Operational Support" },
 ];
 
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
   const [animating, setAnimating] = useState(false);
 
-  const go = useCallback((index: number) => {
-    if (animating) return;
-    setAnimating(true);
-    setTimeout(() => {
-      setCurrent(index);
-      setAnimating(false);
-    }, 300);
-  }, [animating]);
+  const go = useCallback(
+    (index: number) => {
+      if (animating) return;
+      setAnimating(true);
+      setTimeout(() => {
+        setCurrent(index);
+        setAnimating(false);
+      }, 300);
+    },
+    [animating],
+  );
 
   const goNext = useCallback(() => {
     go((current + 1) % slides.length);
@@ -53,7 +56,7 @@ export default function HeroSlider() {
   return (
     <div
       className="relative w-full min-h-screen flex flex-col justify-center overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('https://www.access-fulcrum.com/images/WELCOME.jpg')" }}
+      style={{ backgroundImage: "url('/images/WELCOME.jpg')" }}
     >
       {/* Layered overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/75 to-[#0a1628]/40" />
@@ -78,9 +81,9 @@ export default function HeroSlider() {
             className="text-white font-bold leading-[1.1] mb-6 transition-opacity duration-300"
             style={{
               fontFamily: "'Poppins', sans-serif",
-              fontSize: 'clamp(2.4rem, 5vw, 3.75rem)',
+              fontSize: "clamp(2.4rem, 5vw, 3.75rem)",
               opacity: animating ? 0 : 1,
-              whiteSpace: 'pre-line',
+              whiteSpace: "pre-line",
             }}
           >
             {slide.headline}
@@ -119,7 +122,9 @@ export default function HeroSlider() {
               onClick={() => go(i)}
               aria-label={`Slide ${i + 1}`}
               className={`cursor-pointer transition-all duration-300 rounded-full ${
-                i === current ? 'w-8 h-2 bg-[#E8621A]' : 'w-2 h-2 bg-white/40 hover:bg-white/70'
+                i === current
+                  ? "w-8 h-2 bg-[#E8621A]"
+                  : "w-2 h-2 bg-white/40 hover:bg-white/70"
               }`}
             />
           ))}
@@ -151,14 +156,26 @@ export default function HeroSlider() {
         aria-label="Previous"
         className="absolute left-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full border border-white/30 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer"
       >
-        <img src="https://www.access-fulcrum.com/images/chevron-left.svg" alt="Previous" className="w-5 h-5 brightness-0 invert" />
+        <Image
+          width={100}
+          height={100}
+          src="https://www.access-fulcrum.com/images/chevron-left.svg"
+          alt="Previous"
+          className="w-5 h-5 brightness-0 invert"
+        />
       </button>
       <button
         onClick={() => go((current + 1) % slides.length)}
         aria-label="Next"
         className="absolute right-4 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full border border-white/30 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer"
       >
-        <img src="https://www.access-fulcrum.com/images/chevron-right.svg" alt="Next" className="w-5 h-5 brightness-0 invert" />
+        <Image
+          width={100}
+          height={100}
+          src="https://www.access-fulcrum.com/images/chevron-right.svg"
+          alt="Next"
+          className="w-5 h-5 brightness-0 invert"
+        />
       </button>
     </div>
   );

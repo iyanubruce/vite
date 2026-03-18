@@ -1,13 +1,14 @@
 "use client";
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const navLinks = [
-  { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
-  { label: 'Services', href: '/services' },
-  { label: 'Contact', href: '/contact' },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -17,24 +18,26 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-500 ${
-        scrolled ? 'bg-white border-b border-gray-100' : 'bg-transparent'
+        scrolled ? "bg-white border-gray-100" : "bg-transparent"
       }`}
     >
       <div className="max-w-[1200px] mx-auto px-8 h-[80px] flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
-          <img
-            src="https://www.access-fulcrum.com/_next/image?url=%2Fimages%2FLogo.png&w=384&q=75"
+          <Image
+            width={100}
+            height={52}
+            src="/images/Logo.png"
             alt="Access Fulcrum Limited"
             className={`h-[52px] w-auto object-contain transition-all duration-300 ${
-              scrolled ? '' : 'brightness-0 invert'
+              scrolled ? "" : "brightness-0 invert"
             }`}
           />
         </Link>
@@ -47,10 +50,10 @@ export default function Navbar() {
               href={link.href}
               className={`text-[14px] font-medium tracking-wide transition-colors duration-200 whitespace-nowrap ${
                 pathname === link.href
-                  ? 'text-[#E8621A]'
+                  ? "text-[#E8621A]"
                   : scrolled
-                  ? 'text-[#1a2234] hover:text-[#E8621A]'
-                  : 'text-white/90 hover:text-white'
+                    ? "text-[#1a2234] hover:text-[#E8621A]"
+                    : "text-white/90 hover:text-white"
               }`}
             >
               {link.label}
@@ -67,10 +70,12 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen((v) => !v)}
-          className={`lg:hidden cursor-pointer p-1 ${scrolled ? 'text-[#1a2234]' : 'text-white'}`}
+          className={`lg:hidden cursor-pointer p-1 ${scrolled ? "text-[#1a2234]" : "text-white"}`}
           aria-label="Toggle menu"
         >
-          <i className={`ri-${mobileOpen ? 'close' : 'menu-3'}-line text-2xl`} />
+          <i
+            className={`ri-${mobileOpen ? "close" : "menu-3"}-line text-2xl`}
+          />
         </button>
       </div>
 
@@ -83,7 +88,7 @@ export default function Navbar() {
               href={link.href}
               onClick={() => setMobileOpen(false)}
               className={`text-[15px] font-medium transition-colors ${
-                pathname === link.href ? 'text-[#E8621A]' : 'text-[#1a2234]'
+                pathname === link.href ? "text-[#E8621A]" : "text-[#1a2234]"
               }`}
             >
               {link.label}

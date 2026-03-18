@@ -1,90 +1,90 @@
-import SectionLabel from './SectionLabel';
-
+import SectionLabel from "./SectionLabel";
+import Image from "next/image";
 const clients = [
   {
-    name: 'Malcomines Minor Metals Ltd',
-    shortName: 'Malcomines',
-    logo: 'https://static.wixstatic.com/media/3d2a32_8ae7861d3e4641cd80166863a8fe69cd~mv2.png',
+    name: "Malcomines Minor Metals Ltd",
+    shortName: "Malcomines",
+    logo: "https://static.wixstatic.com/media/3d2a32_8ae7861d3e4641cd80166863a8fe69cd~mv2.png",
     dark: true,
-    color: '#0a1628',
+    color: "#0a1628",
   },
   {
-    name: 'Millenium Metals Nig. Ltd',
-    shortName: 'Millenium Metals',
+    name: "Millenium Metals Nig. Ltd",
+    shortName: "Millenium Metals",
     logo: null,
     dark: false,
-    color: '#1a3a5c',
+    color: "#1a3a5c",
   },
   {
-    name: 'Traxys',
-    shortName: 'Traxys',
-    logo: 'https://www.traxys.com/images/traxys_logo-white.svg',
+    name: "Traxys",
+    shortName: "Traxys",
+    logo: "https://www.traxys.com/images/traxys_logo-white.svg",
     dark: true,
-    color: '#141558',
+    color: "#141558",
   },
   {
-    name: 'BlueQuest Resources',
-    shortName: 'BlueQuest',
-    logo: 'https://static.wixstatic.com/media/93d271_4377539d1e9043928596255d08fc1e59~mv2.png',
+    name: "BlueQuest Resources",
+    shortName: "BlueQuest",
+    logo: "https://static.wixstatic.com/media/93d271_4377539d1e9043928596255d08fc1e59~mv2.png",
     dark: false,
-    color: '#f8f9fc',
+    color: "#f8f9fc",
   },
   {
-    name: 'NMCI Group',
-    shortName: 'NMCI Group',
+    name: "NMCI Group",
+    shortName: "NMCI Group",
     logo: null,
     dark: false,
-    color: '#1e4d7b',
+    color: "#1e4d7b",
   },
   {
-    name: 'Metal Extraction Co. of Nigeria',
-    shortName: 'MEC Nigeria',
+    name: "Metal Extraction Co. of Nigeria",
+    shortName: "MEC Nigeria",
     logo: null,
     dark: false,
-    color: '#2d6a4f',
+    color: "#2d6a4f",
   },
   {
-    name: 'Metcon Ltd',
-    shortName: 'Metcon',
+    name: "Metcon Ltd",
+    shortName: "Metcon",
     logo: null,
     dark: false,
-    color: '#7b3f00',
+    color: "#7b3f00",
   },
   {
-    name: 'Indviz Metals Limited',
-    shortName: 'Indviz Metals',
+    name: "Indviz Metals Limited",
+    shortName: "Indviz Metals",
     logo: null,
     dark: false,
-    color: '#1a3a5c',
+    color: "#1a3a5c",
   },
   {
-    name: 'Greenvale Energy Ltd',
-    shortName: 'Greenvale Energy',
+    name: "Greenvale Energy Ltd",
+    shortName: "Greenvale Energy",
     logo: null,
     dark: false,
-    color: '#1b5e20',
+    color: "#1b5e20",
   },
   {
-    name: 'De Alice Integrated Services',
-    shortName: 'De Alice',
+    name: "De Alice Integrated Services",
+    shortName: "De Alice",
     logo: null,
     dark: false,
-    color: '#4a1942',
+    color: "#4a1942",
   },
   {
-    name: 'Continental Lithium',
-    shortName: 'Continental Lithium',
-    logo: 'https://continental-lithium.com/wp-content/uploads/2023/06/cl_logo.png',
+    name: "Continental Lithium",
+    shortName: "Continental Lithium",
+    logo: "https://continental-lithium.com/wp-content/uploads/2023/06/cl_logo.png",
     dark: false,
-    color: '#f8f9fc',
+    color: "#f8f9fc",
   },
 ];
 
 function getInitials(name: string): string {
-  const words = name.split(' ');
+  const words = name.split(" ");
   if (words.length === 1) return name.slice(0, 2).toUpperCase();
   if (words.length === 2) return (words[0][0] + words[1][0]).toUpperCase();
-  return (words[0][0] + words[1][0] + (words[2]?.[0] ?? '')).toUpperCase();
+  return (words[0][0] + words[1][0] + (words[2]?.[0] ?? "")).toUpperCase();
 }
 
 export default function ClientsSection() {
@@ -100,7 +100,8 @@ export default function ClientsSection() {
             Trusted By Industry Leaders
           </h2>
           <p className="text-gray-400 text-[15px] mt-3 max-w-[520px] mx-auto">
-            Leading metals, minerals, energy, and trading companies across Nigeria and beyond trust AFL for independent oversight.
+            Leading metals, minerals, energy, and trading companies across
+            Nigeria and beyond trust AFL for independent oversight.
           </p>
         </div>
 
@@ -111,11 +112,16 @@ export default function ClientsSection() {
               className="h-[110px] rounded-xl flex flex-col items-center justify-center px-5 overflow-hidden border"
               style={{
                 background: client.color,
-                borderColor: !client.dark && client.color === '#f8f9fc' ? '#e8ecf0' : 'transparent',
+                borderColor:
+                  !client.dark && client.color === "#f8f9fc"
+                    ? "#e8ecf0"
+                    : "transparent",
               }}
             >
               {client.logo ? (
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src={client.logo}
                   alt={client.name}
                   className="max-w-full max-h-[55px] object-contain"
@@ -139,7 +145,10 @@ export default function ClientsSection() {
 
         <div className="mt-10 flex items-center justify-center gap-3 text-gray-400 text-[13px] font-medium">
           <span className="w-16 h-[1px] bg-gray-300" />
-          <span>11+ companies trust Access Fulcrum for independent inspection &amp; management services</span>
+          <span>
+            11+ companies trust Access Fulcrum for independent inspection &amp;
+            management services
+          </span>
           <span className="w-16 h-[1px] bg-gray-300" />
         </div>
       </div>
