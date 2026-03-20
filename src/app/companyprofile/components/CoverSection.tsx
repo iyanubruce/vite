@@ -113,10 +113,7 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
 
         <div className="absolute bottom-8 left-0 right-0 flex items-center justify-center">
           <div className="flex flex-col items-center gap-1 text-black/30">
-            <span className="text-[11px] tracking-widest uppercase">
-              Scroll to explore
-            </span>
-            <i className="ri-arrow-down-line text-sm" />
+            <span className="text-[11px] tracking-widest uppercase"></span>
           </div>
         </div>
       </section>
