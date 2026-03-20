@@ -159,7 +159,7 @@ export default function HeroSlider() {
         <Image
           width={100}
           height={100}
-          src="https://www.access-fulcrum.com/images/chevron-left.svg"
+          src="/images/chevron-left.svg"
           alt="Previous"
           className="w-5 h-5 brightness-0 invert"
         />
@@ -172,7 +172,7 @@ export default function HeroSlider() {
         <Image
           width={100}
           height={100}
-          src="https://www.access-fulcrum.com/images/chevron-right.svg"
+          src="/images/chevron-right.svg"
           alt="Next"
           className="w-5 h-5 brightness-0 invert"
         />

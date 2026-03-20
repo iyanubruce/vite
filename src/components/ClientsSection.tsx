@@ -1,6 +1,7 @@
 "use client";
 import { useRef, useEffect } from "react";
 import Image from "next/image";
+
 interface Client {
   name: string;
   shortName: string;
@@ -14,7 +15,7 @@ const clients: Client[] = [
   {
     name: "Malcomines Minor Metals Ltd",
     shortName: "Malcomines",
-    logo: "https://static.wixstatic.com/media/3d2a32_8ae7861d3e4641cd80166863a8fe69cd~mv2.png",
+    logo: "/images/malcomMines.png",
     darkCard: true,
     url: "https://www.malcomines.com",
     color: "#0a1628",
@@ -30,7 +31,7 @@ const clients: Client[] = [
   {
     name: "Traxys",
     shortName: "Traxys",
-    logo: "https://www.traxys.com/images/traxys_logo-white.svg",
+    logo: "/images/traxys_logo-white.svg",
     darkCard: true,
     url: "https://www.traxys.com",
     color: "#141558",
@@ -38,7 +39,7 @@ const clients: Client[] = [
   {
     name: "BlueQuest Resources",
     shortName: "BlueQuest",
-    logo: "https://static.wixstatic.com/media/93d271_4377539d1e9043928596255d08fc1e59~mv2.png",
+    logo: "/images/bluequest.png",
     darkCard: false,
     url: "https://www.bluequest.com",
     color: "#ffffff",
@@ -94,7 +95,7 @@ const clients: Client[] = [
   {
     name: "Continental Lithium",
     shortName: "Continental Lithium",
-    logo: "https://continental-lithium.com/wp-content/uploads/2023/06/cl_logo.png",
+    logo: "/images/continental-lithium.png",
     darkCard: false,
     url: "https://continental-lithium.com",
     color: "#ffffff",

@@ -11,12 +11,15 @@
   "dependencies": {
     "gsap": "^3.12.5",
     "next": "14.2.13",
+    "nodemailer": "^8.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
     "remixicon": "^4.9.1"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^7.0.11",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",

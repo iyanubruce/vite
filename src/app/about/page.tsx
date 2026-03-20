@@ -81,8 +81,7 @@ export default function AboutPage() {
       <section
         className="relative min-h-[480px] flex items-center justify-center bg-cover bg-center pt-20"
         style={{
-          backgroundImage:
-            "url('https://www.access-fulcrum.com/images/WELCOME.jpg')",
+          backgroundImage: "url('/images/WELCOME.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/80 to-[#0a1628]/60" />
@@ -289,8 +288,8 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="w-full h-[240px] rounded-xl overflow-hidden">
                 <Image
-                  width={100}
-                  height={100}
+                  width={1400}
+                  height={1400}
                   src="/images/serviceImage9.jpg"
                   alt="Operations"
                   className="w-full h-full object-cover object-top"
@@ -298,27 +297,27 @@ export default function AboutPage() {
               </div>
               <div className="w-full h-[240px] rounded-xl overflow-hidden mt-8">
                 <Image
-                  width={100}
-                  height={100}
-                  src="https://www.access-fulcrum.com/images/serviceImage19.jpg"
+                  width={1400}
+                  height={1400}
+                  src="/images/cpf6.jpg"
                   alt="Team"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="w-full h-[240px] rounded-xl overflow-hidden">
                 <Image
-                  width={100}
-                  height={100}
-                  src="https://www.access-fulcrum.com/images/serviceImage4.jpg"
+                  width={1400}
+                  height={1400}
+                  src="/images/cpf7.jpg"
                   alt="Minerals"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="w-full h-[240px] rounded-xl overflow-hidden mt-[-32px]">
                 <Image
-                  width={100}
-                  height={100}
-                  src="https://www.access-fulcrum.com/images/serviceImage1.jpg"
+                  width={1400}
+                  height={1400}
+                  src="/images/cpf5.jpg"
                   alt="Oil Gas"
                   className="w-full h-full object-cover object-top"
                 />

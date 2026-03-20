@@ -12,9 +12,9 @@ export default function ContactFooter() {
             <Image
               width={100}
               height={100}
-              src="https://www.access-fulcrum.com/_next/image?url=%2Fimages%2FLogo.png&w=384&q=75"
+              src="/images/Logo.png"
               alt="Access Fulcrum Limited"
-              className="h-12 w-auto object-contain brightness-0 invert mb-5"
+              className="h-12 w-auto object-contain mb-5"
             />
             <p className="text-white/45 text-[13px] leading-relaxed mb-6">
               Nigeria&apos;s foremost independent provider of commodities
@@ -40,18 +40,23 @@ export default function ContactFooter() {
             {[
               {
                 city: "Abuja",
-                label: "Head Office",
+                label: "Registered Address",
                 address:
                   "No. 3 Euphrates Crescent, Off Amazon Street, Maitama, Abuja",
-                phone: "+234 803 992 6902",
+                phone: "+234 802 058 3150 ",
+                phone2: "+234 803 348 5759",
+                phone3: "+234 803 056 4025",
                 email: "contact@access-fulcrum.com",
               },
               {
                 city: "Lagos",
-                label: "Lagos Operations Hub",
-                address: "23 Parklane, Apapa GRA, Lagos",
-                phone: "+234 803 992 6902",
-                email: "lagos@access-fulcrum.com",
+                label: "Head Office",
+                address:
+                  "21 Ibezim Obiajulu Street, off Adelabu Street, Surulere, Lagos.",
+                phone: "+234 802 058 3150 ",
+                phone2: "+234 803 348 5759",
+                phone3: "+234 803 056 4025",
+                email: "contact@access-fulcrum.com",
               },
             ].map((office, i) => (
               <div key={i}>

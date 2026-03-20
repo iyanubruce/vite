@@ -6,29 +6,25 @@ const team = [
     name: "Emmanuel Adeyemi",
     role: "Managing Director",
     expertise: "Commodities Inspection & Strategy",
-    image:
-      "https://readdy.ai/api/search-image?query=professional%20Nigerian%20male%20executive%20business%20portrait%2C%20formal%20suit%2C%20confident%20expression%2C%20clean%20white%20studio%20background%2C%20corporate%20headshot%20photography%2C%20sharp%20lighting&width=400&height=400&seq=cp-team-01&orientation=squarish",
+    image: "/images/companypersonel1.jpg",
   },
   {
     name: "Chidinma Okafor",
     role: "Head of Laboratory Services",
     expertise: "Analytical Chemistry & Mineralogy",
-    image:
-      "https://readdy.ai/api/search-image?query=professional%20Nigerian%20female%20scientist%20in%20lab%20coat%2C%20confident%20professional%20headshot%2C%20clean%20white%20background%2C%20corporate%20portrait%20photography%2C%20warm%20studio%20lighting&width=400&height=400&seq=cp-team-02&orientation=squarish",
+    image: "/images/companypersonel2.jpg",
   },
   {
     name: "Tunde Afolabi",
     role: "Chief Inspector — Oil & Gas",
     expertise: "Petroleum Products & Marine Surveys",
-    image:
-      "https://readdy.ai/api/search-image?query=professional%20Nigerian%20male%20engineer%20headshot%20wearing%20safety%20vest%2C%20confident%20professional%20expression%2C%20plain%20light%20grey%20background%2C%20corporate%20portrait%20photography%2C%20natural%20lighting&width=400&height=400&seq=cp-team-03&orientation=squarish",
+    image: "/images/companypersonel3.jpg",
   },
   {
     name: "Ngozi Eze",
     role: "Collateral Management Lead",
     expertise: "Finance, Logistics & Warehousing",
-    image:
-      "https://readdy.ai/api/search-image?query=professional%20Nigerian%20female%20business%20executive%20portrait%2C%20business%20attire%2C%20warm%20confident%20smile%2C%20clean%20white%20studio%20background%2C%20corporate%20headshot%20photography&width=400&height=400&seq=cp-team-04&orientation=squarish",
+    image: "/images/companypersonel4.jpg",
   },
 ];
 
@@ -49,15 +45,15 @@ export default function TeamSection() {
             </h2>
             <p className="text-gray-500 text-[15px] leading-relaxed mb-6">
               AFL maintains a robust operational presence across Nigeria — with
-              offices in Abuja (Head Office) and Lagos, and field inspectors
-              deployed at all major ports, refineries, mining sites, and
-              warehouses nationwide.
+              offices in Lagos (Head Office) and Jos and Onne, and field
+              inspectors deployed at all major ports, refineries, mining sites,
+              and warehouses nationwide.
             </p>
             <p className="text-gray-500 text-[15px] leading-relaxed">
-              Our Lagos operations hub at Apapa GRA serves as the primary
-              gateway for marine inspection and port-based commodity work, while
-              our Abuja headquarters coordinates strategy, compliance, and
-              collateral management engagements.
+              Our Head office at Lagos serves as the primary gateway for marine
+              inspection and port-based commodity work, while our Jos and Onne
+              offices coordinates strategy, compliance, and collateral
+              management engagements.
             </p>
           </div>
 
@@ -66,20 +62,25 @@ export default function TeamSection() {
             {[
               {
                 city: "Abuja",
-                label: "Head Office",
+                label: "Registered Address",
                 address:
                   "No. 3 Euphrates Crescent, Off Amazon Street, Maitama, Abuja",
-                phone: "+234 803 992 6902",
+                phone: "+234 802 058 3150 ",
+                phone2: "+234 803 348 5759",
+                phone3: "+234 803 056 4025",
                 email: "contact@access-fulcrum.com",
                 icon: "ri-building-4-line",
               },
               {
                 city: "Lagos",
-                label: "Lagos Operations Hub",
-                address: "23 Parklane, Apapa GRA, Lagos",
-                phone: "+234 803 992 6902",
-                email: "lagos@access-fulcrum.com",
-                icon: "ri-ship-2-line",
+                label: "Head Office",
+                address:
+                  "21 Ibezim Obiajulu Street, off Adelabu Street, Surulere, Lagos.",
+                phone: "+234 802 058 3150 ",
+                phone2: "+234 803 348 5759",
+                phone3: "+234 803 056 4025",
+                email: "contact@access-fulcrum.com",
+                icon: "ri-building-4-line",
               },
             ].map((office, i) => (
               <div

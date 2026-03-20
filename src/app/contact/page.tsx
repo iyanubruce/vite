@@ -4,24 +4,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 
-const FORM_URL = "https://readdy.ai/api/form/d6sli7id1d31f3q961u0";
-
 const offices = [
+  // {
+  //   city: "Abuja - Registered Address",
+  //   address:
+  //     "Plot 242 Muhammadu Buhari Way (2nd Floor), Central Business District, Abuja, Nigeria.",
+  //   tel: "+234 802 058 3150 ",
+  //   tel2: "+234 803 348 5759",
+  //   tel3: "+234 803 056 4025",
+  //   email: "contact@access-fulcrum.com",
+  //   image: "/images/contactImage1.jpg",
+  // },
   {
-    city: "Abuja",
-    address:
-      "Plot 242 Muhammadu Buhari Way (2nd Floor), Central Business District, Abuja, Nigeria.",
-    tel: "+234 803 992 6902",
+    city: "Lagos - Head Office",
+    address: "21 Ibezim Obiajulu Street, off Adelabu Street, Surulere, Lagos.",
+    tel: "+234 802 058 3150 ",
+    tel2: "+234 803 348 5759",
+    tel3: "+234 803 056 4025",
     email: "contact@access-fulcrum.com",
-    image: "https://www.access-fulcrum.com/images/contactImage1.jpg",
-  },
-  {
-    city: "Lagos",
-    address:
-      "We are currently in the process of changing address. Our new details will be published shortly.",
-    tel: "+234 803 992 6902",
-    email: "contact@access-fulcrum.com",
-    image: "https://www.access-fulcrum.com/images/contactImage2.jpg",
+    image: "/images/customerservice.jpg",
   },
 ];
 
@@ -41,13 +42,12 @@ export default function ContactPage() {
     setStatus("sending");
     try {
       const formData = new FormData(form);
-      const params = new URLSearchParams();
-      formData.forEach((value, key) => params.append(key, value.toString()));
+      const data = Object.fromEntries(formData.entries());
 
-      const res = await fetch(FORM_URL, {
+      const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: params.toString(),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
 
       if (res.ok) {
@@ -70,8 +70,7 @@ export default function ContactPage() {
       <section
         className="relative min-h-[480px] flex items-center justify-center bg-cover bg-center pt-20"
         style={{
-          backgroundImage:
-            "url('https://www.access-fulcrum.com/images/contactImage1.jpg')",
+          backgroundImage: "url('/images/contactImage1.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/80 to-[#0a1628]/60" />
@@ -102,7 +101,7 @@ export default function ContactPage() {
               {
                 icon: "ri-phone-line",
                 label: "Phone",
-                value: "+234 803 992 6902",
+                value: " +234 802 058 3150 ",
               },
               {
                 icon: "ri-mail-line",
@@ -112,7 +111,7 @@ export default function ContactPage() {
               {
                 icon: "ri-map-pin-2-line",
                 label: "Head Office",
-                value: "Abuja, Nigeria",
+                value: "Lagos, Nigeria",
               },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-4">
@@ -321,7 +320,7 @@ export default function ContactPage() {
                         className="text-[#0a1628] font-bold text-[17px]"
                         style={{ fontFamily: "'Poppins', sans-serif" }}
                       >
-                        {office.city} Office
+                        {office.city}
                       </h3>
                     </div>
                     <p className="text-gray-500 text-[13px] leading-relaxed mb-4">
@@ -331,6 +330,14 @@ export default function ContactPage() {
                       <div className="flex items-center gap-2.5 text-[13px] text-gray-600">
                         <i className="ri-phone-line text-[#E8621A] flex-shrink-0" />
                         <span>{office.tel}</span>
+                      </div>
+                      <div className="flex items-center gap-2.5 text-[13px] text-gray-600">
+                        <i className="ri-phone-line text-[#E8621A] flex-shrink-0" />
+                        <span>{office.tel2}</span>
+                      </div>
+                      <div className="flex items-center gap-2.5 text-[13px] text-gray-600">
+                        <i className="ri-phone-line text-[#E8621A] flex-shrink-0" />
+                        <span>{office.tel3}</span>
                       </div>
                       <div className="flex items-center gap-2.5 text-[13px] text-gray-600">
                         <i className="ri-mail-line text-[#E8621A] flex-shrink-0" />

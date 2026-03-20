@@ -23,7 +23,7 @@ export default function Footer() {
           <Image
             width={100}
             height={100}
-            src="https://www.access-fulcrum.com/_next/image?url=%2Fimages%2FLogo.png&w=384&q=75"
+            src="/images/Logo.png"
             alt="Access Fulcrum Limited"
             className="h-[48px] w-auto object-contain brightness-0 invert mb-5"
           />
@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             {[
               { icon: "ri-mail-line", val: "contact@access-fulcrum.com" },
-              { icon: "ri-phone-line", val: "+234 803 992 6902" },
+              { icon: "ri-phone-line", val: "+234 802 058 3150" },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">

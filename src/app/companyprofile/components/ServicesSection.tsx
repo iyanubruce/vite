@@ -15,7 +15,7 @@ const services = [
       "Physical stock verification & inventory control",
       "Scrap & recycled metals inspection",
     ],
-    image: "https://www.access-fulcrum.com/images/serviceImage4.jpg",
+    image: "/images/serviceImage20.jpeg",
   },
   {
     number: "02",
@@ -23,16 +23,8 @@ const services = [
     title: "Laboratory & Analytical Services",
     description:
       "World-class laboratory facilities in Nigeria — including our Jos, Plateau State lab — delivering precise analytical results for mineral ores, petroleum products, and agricultural commodities, using internationally accredited methods.",
-    points: [
-      "XRF ore analysis: tin, columbite, tantalite, copper",
-      "Atomic Absorption Spectroscopy (AAS)",
-      "UV/VIS spectrophotometric analysis",
-      "Moisture content determination",
-      "Calorific value, sulphur & ash testing",
-      "GAFTA & NiNAS ISO/IEC 17020 accredited methods",
-    ],
-    image:
-      "https://readdy.ai/api/search-image?query=modern%20chemical%20laboratory%20scientist%20performing%20XRF%20spectrometer%20analysis%20on%20mineral%20ore%20samples%2C%20professional%20lab%20equipment%2C%20clean%20white%20background%2C%20industrial%20analytical%20testing%20facility%20Nigeria%2C%20neutral%20tones&width=800&height=600&seq=cp-svc-lab-01&orientation=landscape",
+    points: ["Moisture content determination"],
+    image: "/images/placeholderImage3.jpg",
   },
   {
     number: "03",
@@ -48,7 +40,7 @@ const services = [
       "On-hire / off-hire surveys",
       "Shore tank gauging & ullaging",
     ],
-    image: "https://www.access-fulcrum.com/images/serviceImage1.jpg",
+    image: "/images/serviceImage3.jpg",
   },
   {
     number: "04",
@@ -64,8 +56,7 @@ const services = [
       "Bunker quantity surveys",
       "Ship-to-ship cargo transfer oversight",
     ],
-    image:
-      "https://readdy.ai/api/search-image?query=oil%20refinery%20petroleum%20storage%20tanks%20at%20Nigerian%20industrial%20facility%2C%20professional%20inspection%20photography%2C%20aerial%20view%20large%20white%20tanks%2C%20warm%20industrial%20lighting%2C%20clean%20minimal%20background&width=800&height=600&seq=cp-svc-oil-01&orientation=landscape",
+    image: "/images/oil.jpg",
   },
   {
     number: "05",
@@ -76,12 +67,11 @@ const services = [
     points: [
       "Crop & stock monitoring for financial institutions",
       "Secure warehousing with controlled access",
-      "GAFTA & FOSFA-approved supervision",
       "Proactive reporting at every movement stage",
       "Petroleum and agricultural products handling",
       "Team of accountants, lawyers & field inspectors",
     ],
-    image: "https://www.access-fulcrum.com/images/serviceImage9.jpg",
+    image: "/images/serviceImage9.jpg",
   },
   {
     number: "06",
@@ -97,7 +87,7 @@ const services = [
       "Container stuffing supervision",
       "Warehouse stock control & management",
     ],
-    image: "https://www.access-fulcrum.com/images/serviceImage12.jpg",
+    image: "/images/serviceImage12.jpg",
   },
 ];
 
@@ -130,8 +120,8 @@ export default function ServicesSection() {
                 className={`lg:col-span-2 h-[280px] lg:h-auto ${i % 2 !== 0 ? "lg:order-last" : ""}`}
               >
                 <Image
-                  width={100}
-                  height={100}
+                  width={1400}
+                  height={1400}
                   src={service.image}
                   alt={service.title}
                   className="w-full h-full object-cover object-top"

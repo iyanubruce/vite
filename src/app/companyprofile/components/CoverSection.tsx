@@ -3,23 +3,23 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
   return (
     <>
       {/* Floating top bar */}
-      <div className="no-print fixed top-0 left-0 right-0 z-50 bg-[#0a1628]/95 backdrop-blur-md border-b border-white/10">
+      <div className="no-print fixed top-0 left-0 right-0 z-50 bg-[#0a1628]/90 backdrop-blur-md border-b border-white/10">
         <div className="max-w-[1200px] mx-auto px-8 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Image
-              width={100}
-              height={100}
-              src="https://www.access-fulcrum.com/_next/image?url=%2Fimages%2FLogo.png&w=384&q=75"
+              width={1000}
+              height={1000}
+              src="/images/Logo.png"
               alt="Access Fulcrum Limited"
-              className="h-8 w-auto object-contain brightness-0 invert"
+              className="h-10 w-auto object-contain"
             />
-            <span className="text-white/40 text-[12px] tracking-wide font-medium uppercase">
+            <span className="text-white text-[12px] tracking-wide font-medium uppercase">
               Company Profile
             </span>
           </div>
           <button
             onClick={onPrint}
-            className="no-print flex items-center gap-2 bg-[#E8621A] hover:bg-[#c94e0f] text-white text-[13px] font-semibold px-5 py-2 rounded-full transition-colors duration-300 cursor-pointer whitespace-nowrap"
+            className="no-print flex items-center gap-2 bg-[#E8621A] hover:bg-[#c94e0f] text-black text-[13px] font-semibold px-5 py-2 rounded-full transition-colors duration-300 cursor-pointer whitespace-nowrap"
           >
             <span className="w-4 h-4 flex items-center justify-center">
               <i className="ri-download-2-line text-sm" />
@@ -30,23 +30,17 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
       </div>
 
       {/* Cover */}
-      <section
-        className="relative min-h-screen flex flex-col items-center justify-center bg-cover bg-center overflow-hidden"
-        style={{
-          backgroundImage:
-            "url('https://readdy.ai/api/search-image?query=professional%20industrial%20commodities%20inspection%20Nigeria%20oil%20minerals%20storage%20warehouse%20aerial%20view%20with%20dramatic%20lighting%2C%20dark%20atmospheric%20corporate%20photography%2C%20cinematic%20widescreen%20industrial%20landscape&width=1600&height=900&seq=cp-cover-01&orientation=landscape')",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628]/95 via-[#0a1628]/85 to-[#0a1628]/75" />
+      <section className="relative bg-white min-h-screen flex flex-col items-center justify-center bg-cover bg-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#ffff]/95 via-[#ffff]/85 to-[#ffff]/75" />
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#E8621A]" />
 
         <div className="relative z-10 w-full max-w-[1000px] mx-auto px-12 flex flex-col items-center text-center">
           <Image
             width={100}
             height={100}
-            src="https://www.access-fulcrum.com/_next/image?url=%2Fimages%2FLogo.png&w=384&q=75"
+            src="/images/Logo.png"
             alt="Access Fulcrum Limited"
-            className="h-20 w-auto object-contain brightness-0 invert mb-10"
+            className="h-20 w-auto object-contain mb-10"
           />
 
           <div className="flex items-center gap-4 mb-8">
@@ -58,7 +52,7 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
           </div>
 
           <h1
-            className="text-white font-bold text-[64px] leading-[1.1] mb-6"
+            className="text-[#3e3d94] font-bold text-[64px] leading-[1.1] mb-6"
             style={{
               fontFamily: "'Poppins', sans-serif",
               letterSpacing: "-0.01em",
@@ -68,7 +62,7 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
             <span className="block text-[#E8621A]">Limited</span>
           </h1>
 
-          <p className="text-white/70 text-[19px] leading-relaxed max-w-[680px] mb-12">
+          <p className="text-black/70 text-[19px] leading-relaxed max-w-[680px] mb-12">
             Nigeria&apos;s foremost independent provider of commodities
             inspection, laboratory analysis, marine surveys, collateral
             management, and stock monitoring services.
@@ -77,11 +71,10 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
           <div className="flex flex-wrap items-center justify-center gap-8">
             {[
               { icon: "ri-search-eye-line", label: "Independent Inspection" },
-              { icon: "ri-flask-line", label: "Laboratory & Analysis" },
               { icon: "ri-ship-2-line", label: "Marine Surveys" },
               { icon: "ri-bank-line", label: "Collateral Management" },
             ].map((item, i) => (
-              <div key={i} className="flex items-center gap-2.5 text-white/60">
+              <div key={i} className="flex items-center gap-2.5 text-black/60">
                 <span className="w-6 h-6 flex items-center justify-center">
                   <i className={`${item.icon} text-[#E8621A] text-base`} />
                 </span>
@@ -105,12 +98,12 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
                 }}
               >
                 <div
-                  className="text-white font-bold text-[36px] leading-none"
+                  className="text-black font-bold text-[36px] leading-none"
                   style={{ fontFamily: "'Poppins', sans-serif" }}
                 >
                   {stat.value}
                 </div>
-                <div className="text-white/70 text-[11px] mt-1.5 tracking-wide">
+                <div className="text-black/70 text-[11px] mt-1.5 tracking-wide">
                   {stat.label}
                 </div>
               </div>
@@ -119,7 +112,7 @@ export default function CoverSection({ onPrint }: { onPrint: () => void }) {
         </div>
 
         <div className="absolute bottom-8 left-0 right-0 flex items-center justify-center">
-          <div className="flex flex-col items-center gap-1 text-white/30">
+          <div className="flex flex-col items-center gap-1 text-black/30">
             <span className="text-[11px] tracking-widest uppercase">
               Scroll to explore
             </span>

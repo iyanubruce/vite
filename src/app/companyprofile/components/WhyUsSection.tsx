@@ -1,41 +1,41 @@
-import SectionLabel from './SectionLabel';
+import SectionLabel from "./SectionLabel";
 
 const reasons = [
   {
-    icon: 'ri-medal-line',
-    title: 'Expertise',
-    desc: 'Our team brings combined decades of experience in inspection, analytical services, and commodity management across Nigeria\'s key mining, energy, and agricultural sectors.',
-    highlight: '40+ Years Combined',
+    icon: "ri-medal-line",
+    title: "Expertise",
+    desc: "Our team brings combined decades of experience in inspection, analytical services, and commodity management across Nigeria's key mining, energy, and agricultural sectors.",
+    highlight: "40+ Years Combined",
   },
   {
-    icon: 'ri-star-line',
-    title: 'Quality',
-    desc: 'We are committed to delivering exceptional service quality on every assignment — from field inspections to laboratory analysis — measured against international benchmarks.',
-    highlight: 'Zero Compromise',
+    icon: "ri-star-line",
+    title: "Quality",
+    desc: "We are committed to delivering exceptional service quality on every assignment — measured against international benchmarks.",
+    highlight: "Zero Compromise",
   },
   {
-    icon: 'ri-award-line',
-    title: 'Excellence',
-    desc: 'All operations conform to ISO, GAFTA, and MMTA standards, with analytical methods accredited under NiNAS ISO/IEC 17020 — ensuring results you can stand behind in any trade dispute.',
-    highlight: 'ISO & GAFTA Compliant',
+    icon: "ri-award-line",
+    title: "Excellence",
+    desc: "All operations conform to ISO and GAFTA standards ensuring results you can stand behind in any trade dispute.",
+    highlight: "ISO & GAFTA Compliant",
   },
   {
-    icon: 'ri-user-star-line',
-    title: 'Competence',
-    desc: 'Our multidisciplinary workforce includes skilled chemists, geologists, surveyors, and trade specialists — each licensed and trained for their respective commodity domain.',
-    highlight: 'Multidisciplinary Team',
+    icon: "ri-user-star-line",
+    title: "Competence",
+    desc: "Our versatile workforce brings together a wide range of technical expertise and practical trade skills, allowing us to deliver customized solutions across multiple commodity sectors.",
+    highlight: "Versatile Workforce",
   },
   {
-    icon: 'ri-map-pin-line',
-    title: 'Network',
-    desc: 'With offices in Abuja and Lagos and active inspectors at all major Nigerian ports, refineries, and mining sites, AFL maintains a nationwide operational footprint.',
-    highlight: 'Nationwide Coverage',
+    icon: "ri-map-pin-line",
+    title: "Network",
+    desc: "AFL operates a robust network across Nigeria, with its head office in Lagos and key regional offices in Jos and Onne. This infrastructure allows our inspectors to maintain a constant presence at major mining sites, refineries, and ports nationwide.",
+    highlight: "Nationwide Coverage",
   },
   {
-    icon: 'ri-cpu-line',
-    title: 'Technology',
-    desc: 'AFL deploys real-time reporting infrastructure, digital chain-of-custody tools, and modern analytical equipment — including XRF, AAS, and UV/VIS systems — for accurate, fast turnaround.',
-    highlight: 'Real-Time Reporting',
+    icon: "ri-cpu-line",
+    title: "Technology",
+    desc: "AFL deploys real-time reporting infrastructure, digital chain-of-custody tools, and modern analytical equipment for accurate, fast turnaround.",
+    highlight: "Real-Time Reporting",
   },
 ];
 
@@ -44,8 +44,7 @@ export default function WhyUsSection() {
     <section
       className="relative py-24 bg-cover bg-center"
       style={{
-        backgroundImage:
-          "url('https://readdy.ai/api/search-image?query=modern%20professional%20office%20building%20exterior%20glass%20facade%20with%20warm%20interior%20lighting%20at%20dusk%2C%20premium%20corporate%20headquarters%20architecture%2C%20dark%20evening%20tones%2C%20Nigeria%20business%20district%20cityscape%2C%20minimal%20simple%20background&width=1600&height=800&seq=cp-why-bg-01&orientation=landscape')",
+        backgroundImage: "url('/images/bgImage3.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-[#0a1628]/90" />
@@ -59,7 +58,8 @@ export default function WhyUsSection() {
             Six Reasons to Choose AFL
           </h2>
           <p className="text-white/50 text-[15px] mt-3 max-w-[540px] mx-auto">
-            Trusted by commodity traders, banks, and exporters for our unmatched depth of expertise and operational integrity.
+            Trusted by commodity traders, banks, and exporters for our unmatched
+            depth of expertise and operational integrity.
           </p>
         </div>
 
@@ -83,7 +83,9 @@ export default function WhyUsSection() {
               >
                 {item.title}
               </h4>
-              <p className="text-white/50 text-[13px] leading-relaxed">{item.desc}</p>
+              <p className="text-white/50 text-[13px] leading-relaxed">
+                {item.desc}
+              </p>
             </div>
           ))}
         </div>

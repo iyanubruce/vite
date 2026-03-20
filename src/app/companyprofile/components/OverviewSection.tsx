@@ -61,36 +61,36 @@ export default function OverviewSection() {
           <div className="grid grid-cols-2 gap-4">
             <div className="w-full h-[260px] rounded-xl overflow-hidden">
               <Image
-                width={100}
-                height={100}
-                src="https://readdy.ai/api/search-image?query=professional%20commodity%20inspection%20specialist%20in%20high-visibility%20vest%20examining%20mineral%20ore%20samples%20at%20warehouse%20facility%2C%20focused%20professional%20worker%2C%20industrial%20setting%20Nigeria%2C%20bright%20natural%20lighting%2C%20clean%20simple%20background&width=600&height=600&seq=cp-ov-01&orientation=squarish"
+                width={1400}
+                height={1400}
+                src="/images/cpf1.jpg"
                 alt="Inspection specialist"
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="w-full h-[260px] rounded-xl overflow-hidden mt-8">
               <Image
-                width={100}
-                height={100}
-                src="https://readdy.ai/api/search-image?query=oil%20tanker%20cargo%20ship%20at%20Nigerian%20port%20during%20sunset%2C%20industrial%20petroleum%20inspection%20operations%2C%20professional%20maritime%20photography%2C%20warm%20golden%20tones%2C%20simple%20seaport%20background&width=600&height=600&seq=cp-ov-02&orientation=squarish"
+                width={1400}
+                height={1400}
+                src="/images/cpf5.jpg"
                 alt="Oil cargo port"
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="w-full h-[260px] rounded-xl overflow-hidden">
               <Image
-                width={100}
-                height={100}
-                src="https://readdy.ai/api/search-image?query=modern%20laboratory%20scientist%20performing%20chemical%20analysis%20on%20mineral%20samples%20with%20XRF%20equipment%2C%20professional%20lab%20setting%2C%20clean%20white%20background%2C%20industrial%20analytical%20testing%20Nigeria&width=600&height=600&seq=cp-ov-03&orientation=squarish"
+                width={1400}
+                height={1400}
+                src="/images/cpf7.jpg"
                 alt="Laboratory analysis"
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="w-full h-[260px] rounded-xl overflow-hidden mt-[-32px]">
               <Image
-                width={100}
-                height={100}
-                src="https://readdy.ai/api/search-image?query=agricultural%20commodity%20bags%20of%20rice%20and%20grains%20in%20large%20organized%20warehouse%20facility%2C%20inspection%20and%20logistics%2C%20clean%20storage%20facility%2C%20warm%20interior%20lighting%2C%20simple%20industrial%20background&width=600&height=600&seq=cp-ov-04&orientation=squarish"
+                width={1400}
+                height={1400}
+                src="/images/cpf3.jpg"
                 alt="Agricultural storage"
                 className="w-full h-full object-cover object-top"
               />

@@ -15,11 +15,11 @@ export default function AboutSection() {
           <div className="relative">
             <div className="w-full h-[480px] rounded-xl overflow-hidden">
               <Image
-                width={400}
-                height={400}
-                src="https://www.access-fulcrum.com/images/WELCOME.jpg"
+                width={1400}
+                height={1400}
+                src="/images/commodityinspection.webp"
                 alt="Access Fulcrum Operations"
-                className="w-full h-full object-cover object-top"
+                className="w-[500%] h-[100%] object-cover object-top"
               />
             </div>
             {/* Floating accent card */}

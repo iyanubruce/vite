@@ -1,8 +1,8 @@
-import SectionLabel from './SectionLabel';
+import SectionLabel from "./SectionLabel";
 
 export default function VisionMissionSection() {
   return (
-    <section className="py-24" style={{ background: '#0a1628' }}>
+    <section className="py-24" style={{ background: "#0a1628" }}>
       <div className="max-w-[1100px] mx-auto px-12">
         <div className="text-center mb-16">
           <SectionLabel text="Our Purpose" />
@@ -17,14 +17,14 @@ export default function VisionMissionSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {[
             {
-              icon: 'ri-eye-line',
-              title: 'Our Vision',
-              text: 'To be the trusted leader in commodities inspection, laboratory analysis, and collateral management in Nigeria and across Africa — ensuring transparency, reliability, and excellence across the metals &amp; minerals, oil &amp; gas, marine, and agricultural sectors.',
+              icon: "ri-eye-line",
+              title: "Our Vision",
+              text: "To be the trusted global leader in commodities inspection, collateral management and stock monitoring. Ensuring transparency, reliability, and excellence across the, metals and minerals, agricultural and allied commodities and oil and gas sectors.",
             },
             {
-              icon: 'ri-rocket-2-line',
-              title: 'Our Mission',
-              text: 'At Access Fulcrum Limited, we strive to collaborate with the industry in building the capacity of our clients. Through innovation, professionalism, and commitment to international standards, we aim to foster sustainable growth and enduring trust in commodity markets across Nigeria.',
+              icon: "ri-rocket-2-line",
+              title: "Our Mission",
+              text: "At Access Fulcrum Limited, we strive to collaborate with the industry capacity building of our invaluable clients. AFL capacity building will assist clients to go through the crucible of organizational development. There is need to totally recapture the virtue of integrity in inspection industry. Through innovation, professionalism, and commitment to industry standards, we aim to foster sustainable growth and trust in the global commodities market.",
             },
           ].map((item, i) => (
             <div

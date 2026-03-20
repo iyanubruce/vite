@@ -30,10 +30,10 @@ const servicesData: ServiceData[] = [
       "Assaying Services",
     ],
     images: [
-      "https://www.access-fulcrum.com/images/serviceImage4.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage5.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage6.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage7.jpg",
+      "/images/serviceImage7.jpg",
+      "/images/cpf9.jpg",
+      "/images/cpf8.jpg",
+      "/images/cpf10.jpg",
     ],
     reversed: false,
     icon: "ri-hammer-line",
@@ -52,10 +52,10 @@ const servicesData: ServiceData[] = [
       "Cargo Superintendence and Laboratory Analysis",
     ],
     images: [
-      "https://www.access-fulcrum.com/images/serviceImage1.jpg",
-      "https://www.access-fulcrum.com/images/about2.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage2.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage3.jpg",
+      "/images/serviceImage1.jpg",
+      "/images/about2.jpg",
+      "/images/serviceImage2.jpg",
+      "/images/serviceImage3.jpg",
     ],
     reversed: true,
     icon: "ri-ship-line",
@@ -73,10 +73,10 @@ const servicesData: ServiceData[] = [
       "Stock control and monitoring for Banks & Traders",
     ],
     images: [
-      "https://www.access-fulcrum.com/images/serviceImage8.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage9.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage10.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage15.jpg",
+      "/images/serviceImage8.jpg",
+      "/images/serviceImage9.jpg",
+      "/images/serviceImage10.jpg",
+      "/images/serviceImage15.jpg",
     ],
     reversed: false,
     icon: "ri-building-2-line",
@@ -95,9 +95,9 @@ const servicesData: ServiceData[] = [
       "Sugar & Timber",
     ],
     images: [
-      "https://www.access-fulcrum.com/images/serviceImage12.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage13.jpg",
-      "https://www.access-fulcrum.com/images/serviceImage16.jpg",
+      "/images/serviceImage12.jpg",
+      "/images/serviceImage13.jpg",
+      "/images/serviceImage16.avif",
     ],
     reversed: true,
     icon: "ri-seedling-line",
@@ -233,8 +233,7 @@ export default function ServicesPage() {
       <section
         className="relative min-h-[480px] flex items-center justify-center bg-cover bg-center pt-20"
         style={{
-          backgroundImage:
-            "url('https://www.access-fulcrum.com/images/serviceImage1.jpg')",
+          backgroundImage: "url('/images/serviceImage1.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/80 to-[#0a1628]/60" />

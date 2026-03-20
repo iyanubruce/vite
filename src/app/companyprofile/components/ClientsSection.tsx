@@ -4,7 +4,7 @@ const clients = [
   {
     name: "Malcomines Minor Metals Ltd",
     shortName: "Malcomines",
-    logo: "https://static.wixstatic.com/media/3d2a32_8ae7861d3e4641cd80166863a8fe69cd~mv2.png",
+    logo: "/images/malcomMines.png",
     dark: true,
     color: "#0a1628",
   },
@@ -18,14 +18,14 @@ const clients = [
   {
     name: "Traxys",
     shortName: "Traxys",
-    logo: "https://www.traxys.com/images/traxys_logo-white.svg",
+    logo: "/images/traxys_logo-white.svg",
     dark: true,
     color: "#141558",
   },
   {
     name: "BlueQuest Resources",
     shortName: "BlueQuest",
-    logo: "https://static.wixstatic.com/media/93d271_4377539d1e9043928596255d08fc1e59~mv2.png",
+    logo: "/images/bluequest.png",
     dark: false,
     color: "#f8f9fc",
   },
@@ -38,7 +38,7 @@ const clients = [
   },
   {
     name: "Metal Extraction Co. of Nigeria",
-    shortName: "MEC Nigeria",
+    shortName: "MEXCON",
     logo: null,
     dark: false,
     color: "#2d6a4f",
@@ -74,7 +74,7 @@ const clients = [
   {
     name: "Continental Lithium",
     shortName: "Continental Lithium",
-    logo: "https://continental-lithium.com/wp-content/uploads/2023/06/cl_logo.png",
+    logo: "/images/continental-lithium.png",
     dark: false,
     color: "#f8f9fc",
   },
